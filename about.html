@@ -78,7 +78,7 @@
     <div class="section-activity">
         <div class="activity-image">
             <img src="img/img-dosie.png" alt="">
-            <div class="activity-start">
+            <div class="activity-start wow fadeInUp" data-wow-delay=".6s">
                 <h1>2008</h1>
                 <p>
                     Начало активной деятельности
@@ -86,20 +86,20 @@
                 </p>
             </div>
         </div>
-        <div class="activity-box-left">
+        <div class="activity-box-left wow fadeInUp" data-wow-delay=".3s">
             <h1>SIKA</h1>
             <p>высококачественные материалы и современные решения швейцарского
              концерна для строительного рынка 
             Казахстана</p>
         </div>
-        <div class="activity-box-partners">
+        <div class="activity-box-partners wow fadeInUp" data-wow-delay=".6s">
             <h1>ПАРТНЕРЫ</h1>
             <p>группы Казахмыс KAZ Minerals,
              группы ERG, КазАтомПром, Казцинк,
               группы AES, Азия Авто Казахстан и 
               другие</p>
         </div>
-        <div class="activity-box-left">
+        <div class="activity-box-left wow fadeInUp" data-wow-delay=".6s">
             <h1>ДИЛЕР</h1>
             <p>компании Шеврон Мунайгаз Инк.
                 г.Атырау - предоставляем
@@ -108,7 +108,7 @@
                 производителя
             </p>
         </div>
-        <div class="activity-box-right">
+        <div class="activity-box-right wow fadeInUp" data-wow-delay=".3s">
             <h1>СЕРВИС</h1>
             <p>
                 Высокого уровня от контроля
@@ -127,8 +127,8 @@
         
         <h1>РАБОТАЯ С НАМИ ВЫ ПОЛУЧАЕТЕ</h1>
         
-        <div class="box-img-reliability"></div>
-        <div class="box-text">
+        <div class="box-img-reliability wow fadeInLeft" data-wow-delay=".3s"></div>
+        <div class="box-text wow fadeInRight" data-wow-delay=".6s">
             <h1>НАДЕЖНОСТЬ</h1>
             <p>
             За 8 лет существования компания зарекомендовала себя в роли надежного поставщика и партнера.
@@ -137,7 +137,7 @@
         </div>
         
         <div class="box-img-benefit-850"></div>
-        <div class="box-text">
+        <div class="box-text wow fadeInLeft" data-wow-delay=".6s">
             <h1>ВЫГОДА</h1>
             <p>
             Каждая заявка нашими менеджерами обрабатывается в индивидуальном порядке.
@@ -145,10 +145,10 @@
             в финансовом плане, так и с технической точки зрения.
             </p>
         </div>
-        <div class="box-img-benefit"></div>
+        <div class="box-img-benefit wow fadeInRight" data-wow-delay=".3s"></div>
         
-        <div class="box-img-partnership"></div>
-        <div class="box-text">
+        <div class="box-img-partnership wow fadeInLeft" data-wow-delay=".3s"></div>
+        <div class="box-text wow fadeInRight" data-wow-delay=".6s">
            <h1>ПАРТНЕРСТВО</h1>
            <p>
             Сотрудничество с ведущими производителями строительной химии и трубопроводных систем
@@ -218,7 +218,7 @@
                 <div class="footer-navigation-panel">
                     <a href="index.html"><div class="footer-nav"><p>ГЛАВНАЯ</p></div></a>
                     <a href=""><div class="footer-nav"><p>ПРОДУКЦИЯ</p></div></a>
-                    <a href="about.html"><div class="footer-nav"><p>О КОМПАНИИ</p></div></a>
+                    <a href="about.html"><div class="footer-nav nav-active"><p>О КОМПАНИИ</p></div></a>
                     <a href=""><div class="footer-nav"><p>СТАТЬИ</p></div></a>
                     <a href=""><div class="footer-nav"><p>КОНТАКТЫ</p></div></a>
                 </div>
@@ -231,9 +231,14 @@
  <script src="js/jquery.smoothwheel.js"></script>
 
     <script>
-
+        
         $(document).ready(function(){
+    
+            if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
+        
             $("body").smoothWheel()
+            
+            }
         }); 
 
     </script>

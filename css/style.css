@@ -147,6 +147,10 @@ h1{
     color: #fff;
     text-decoration: none;
 }
+.nav-active{
+    background: #fff;
+    color: #232323;
+}
 .header-nav p{
     margin-top: 30px;
     margin-left: 15px;
