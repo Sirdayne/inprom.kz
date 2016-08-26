@@ -1,0 +1,224 @@
+@media only screen and (max-height : 1300px) {
+    .offer-call{
+        margin-top: 250px;
+    }
+}
+@media only screen and (max-height : 1000px) {
+    .header-logo{
+        margin-top: 5vh;
+    }
+    .header-navigation{
+        margin-top: 5vh;
+    }
+    .header-title{
+        margin-top: 5vh;
+    }
+    .header-button{
+        margin-top: 7vh;
+    }
+}
+@media only screen and (max-height : 700px) {
+    .offer-call{
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (max-width : 2380px) {
+    .chemistry-button{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width : 1640px) {
+    .chemistry-button{
+        margin-top: 65px;
+    }
+}
+@media only screen and (max-width : 1549px) {
+    .chemistry-button{
+        margin-top: 45px;
+    }
+}
+@media only screen and (max-width : 1500px) {
+    .header-title h1{
+        font-size: 45px;
+    }
+@media only screen and (max-width : 1200px) {
+    .foot-row{
+        margin-right: 50px;
+    }
+    .section1-chemistry h1, .section1-systems h1{
+        margin-top: 30vh;
+    }
+}
+@media only screen and (max-width : 1000px) {
+    .causes-bottom-1, .causes-bottom-2{
+        height: 200px;
+        width: 350px;
+    }
+    .causes-bottom-1 h1, .causes-bottom-2 h1{
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    .causes-top-1, .causes-top-2{
+        height: 200px;
+        width: 350px;
+    }
+    .causes-top-1 h1, .causes-top-2 h1{
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    .foot-row, .foot-ginnova{
+        margin: 5px 0 5px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .foot-gin{
+        float: none;
+        display: inline-block;
+    }
+    .section1-chemistry h1, .section1-systems h1{
+        margin-top: 20vh;
+    }
+}
+@media only screen and (max-width : 750px) {
+    .header-navigation{
+        position: fixed;
+        top: 30px;
+        float: none;
+        margin-top: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 5;
+        display: none;
+    }
+    .header-navigation-panel{
+        width: 100%;
+        margin-top: 0;
+        background: rgba(0,0,0,0.9);
+    }
+    .header-nav{
+        float: left;
+        margin-left: 10%;
+        margin-right: 0;
+        height: 80px;
+        width: 80%;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .header-title h1{
+        font-size: 20px;
+    }
+    .header-logo{
+        margin-top: 55px;
+    }    
+    .header-navigation{
+        margin-top: 25px;
+    }
+    .header-title{
+        margin-top: 25px;
+    }
+    .header-button{
+        margin-top: 55px;
+    }
+    #section1{
+        height: 800px;
+    }
+    .section1-chemistry, .section1-systems{
+        height: 400px;
+        width: 100%;
+    }
+    .section1-chemistry h1, .section1-systems h1{
+        margin-top: 100px;
+    }
+    .section1-chemistry p, .section1-systems p{
+        margin: 25px auto 45px;
+    }
+    .section1-chemistry h1, .section1-systems h1{
+        font-size: 18px;
+    }
+    .causes-title h1{
+        font-size: 22px;
+    }
+    .offer-title h1{
+        font-size: 18px;
+    }
+    .offer-form-part{
+        width: 100%;
+    }
+    .offer-form-part textarea{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .offer-modal-part{
+        width: 100%;
+    }
+    .offer-modal-part input{
+        text-align: center;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .offer-modal-part textarea{
+        text-align: center;
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .causes-bottom-align, .causes-top-align{
+        width: 350px;
+    }
+    .footer-nav{
+        width: 100%;
+        margin: 0;
+    }
+    .section1-chemistry h1, .section1-systems h1{
+        margin-top: 75px;
+    }
+    .partners-logos{
+        width: 100%;
+    }
+    .partners-logo{
+        width: 80%;
+        margin-left: 15%;
+        margin-right: 5%;
+    }
+    .partners-logos img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width : 450px) { 
+    .partners-logo{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media only screen and (max-width : 450px) { 
+    .section1-chemistry h1, .section1-systems h1{
+        margin-top: 35px;
+    }
+    .header-logo{
+        margin-top: 105px;
+    } 
+    .section1-systems p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width : 350px) {
+    .causes-bottom-align, .causes-top-align{
+        width: 300px;
+    }
+    .causes-bottom-1, .causes-bottom-2{
+        height: 200px;
+        width: 300px;
+    }
+    .causes-top-1, .causes-top-2{
+        height: 200px;
+        width: 300px;
+    }
+    .causes-top-1 h1, .causes-top-2 h1, .causes-bottom-1 h1, .causes-bottom-2 h1{
+        font-size: 14px;
+    }
+    .section1-systems p{
+        font-size: 12px;
+    }
+}
