@@ -35,7 +35,7 @@
                 <div class="offer-modal-part">
                     <input type="text" placeholder="Ваше имя">
                     <input type="text" placeholder="Компания">
-                    <input type="text" placeholder="Телефон">
+                    <input type="text" id="client-tel-for-consult" placeholder="Телефон">
                     <input type="text" placeholder="Интересующая продукция">
                 </div>
                 <div class="offer-modal-part">
@@ -140,7 +140,7 @@
                 <div class="offer-form-part">
                     <input type="text" placeholder="Ваше имя">
                     <input type="text" placeholder="Компания">
-                    <input type="text" placeholder="Телефон">
+                    <input type="text" id="client-tel-for-consult-2" placeholder="Телефон">
                     <input type="text" placeholder="Интересующая продукция">
                 </div>
                 <div class="offer-form-part">
@@ -298,6 +298,13 @@
             new WOW().init();
         }
     </script>
+    
+    <script src="js/maskedinput.js"></script>
+	<script type="text/javascript">
+		
+		jQuery(function($){$("#client-tel-for-consult").mask("+7(999)999-99-99");});
+        jQuery(function($){$("#client-tel-for-consult-2").mask("+7(999)999-99-99");});
+	</script>
     
     <!--
     <script>

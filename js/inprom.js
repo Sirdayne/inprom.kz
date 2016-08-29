@@ -1,8 +1,8 @@
 $(document).ready(function(){        
-        $('.burger-menu').click(function() {
-            $(this).toggleClass('burger-active');
-            $('.header-navigation').slideToggle('fast');
-        });
+    $('.burger-menu').click(function() {
+        $(this).toggleClass('burger-active');
+        $('.header-navigation').slideToggle('fast');
+    });
     
     
     $('.partners-logo img').click(function() {
