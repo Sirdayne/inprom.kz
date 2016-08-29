@@ -1,3 +1,4 @@
+/* mobile HEIGHT fixes */
 @media only screen and (max-height : 1300px) {
     .offer-call{
         margin-top: 250px;
@@ -22,6 +23,7 @@
     }
 }
 
+/* mobile WIDTH fixes */
 @media only screen and (max-width : 2380px) {
     .chemistry-button{
         margin-top: 50px;
