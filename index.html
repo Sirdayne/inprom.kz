@@ -41,17 +41,16 @@
                 <button class="offer-button call-button-margin">ОТПРАВИТЬ</button>
             </div>
     </div>
-   
-    <div class="burger-menu">
-        <div class="burger-line-1"></div>
-        <div class="burger-line-2"></div>
-        <div class="burger-line-3"></div>
-    </div>
 
     <div class="section" id="section-header">
         
         <div class="header-logo">
-            <img src="img/logo.png" alt="Inprom Logo"  class="wow fadeInDown">
+            <a href="index.html"><img src="img/logo.png" alt="Inprom Logo"  class="wow fadeInDown"></a>
+            <div class="burger-menu">
+                <div class="burger-line-1"></div>
+                <div class="burger-line-2"></div>
+                <div class="burger-line-3"></div>
+            </div>
         </div>
         <div class="header-navigation">
             <div class="header-navigation-panel wow fadeInRight" data-wow-delay=".3s">
@@ -210,7 +209,7 @@
         </div>
         
         <footer>
-            <div class="footer-row">
+            <div class="footer-row footer-mob-hide">
                 <div class="foot-row">
                     <img src="img/logo.png" alt="">
                 </div>
@@ -232,12 +231,35 @@
                 </div>
             </div>
             <div class="footer-panel">
+                
                 <div class="footer-navigation-panel">
+                    <div class="footer-mob">
+                        <h1>МЕНЮ</h1>
+                    </div>
                     <a href="index.html"><div class="footer-nav nav-active"><p>ГЛАВНАЯ</p></div></a>
                     <a href=""><div class="footer-nav"><p>ПРОДУКЦИЯ</p></div></a>
                     <a href="about.html"><div class="footer-nav"><p>О КОМПАНИИ</p></div></a>
                     <a href=""><div class="footer-nav"><p>СТАТЬИ</p></div></a>
                     <a href=""><div class="footer-nav"><p>КОНТАКТЫ</p></div></a>
+                    <div class="footer-mob">
+                        <h1>КОНТАКТЫ</h1>
+                    </div>
+                    <div class="footer-mob">
+                        <p>Республика Казахстан, ВКО</p>
+                        <p>г. Усть-Каменогорск,</p>
+                        <p>ул. Казахстан, 158</p>
+                        <p>Тел.: 8/7232/40-17-40</p>
+                        <p>E-mail: info@inprom.kz</p>
+                    </div>
+                    <div class="footer-mob">
+                        <div class="foot-ginnova">
+                            <div class="foot-gin">
+                            <a href="http://ginnova.kz" target="_blank"><p>Разработано с особым трепетом</p></a>
+                            <div class="ginnova-line"></div>
+                            <a href="http://ginnova.kz" target="_blank"><img src="img/gi-logo.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
@@ -266,7 +288,7 @@
     
     <script src="js/wow.min.js"></script>
     <script>
-        if ($(window).width() > 750) {
+        if ($(window).width() > 1200) {
             new WOW().init();
         }
     </script>

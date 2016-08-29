@@ -43,13 +43,16 @@ h1{
 }
 #section-header{
     height: 100%;
+    width: 100%;
     background: url(../img/section-header.png) center center no-repeat;
     background-size: cover;
+    position: relative;
 }
 #header-about{
     height: 100%;
     background: url(../img/header-about.png) center center no-repeat;
     background-size: cover;
+    position: relative;
 }
 #section1{
     height: 100%;
@@ -68,21 +71,21 @@ h1{
 }
 
 .burger-menu{
-    display: none;
-    position: fixed;
-    top: 15px;
-    left: 15px;
+    float: right;
+    position: relative;
+    margin: 25px;
     height: 50px;
     width: 40px;
     cursor: pointer;
+    display: none;
     z-index: 6;
 }
 .burger-line-1, .burger-line-2, .burger-line-3{
     position: absolute;
     background: #fff;
-    border: 2px solid #111;
-    left: 0;
+    right: 0;
     transition: 0.3s linear;
+    border: 0.5px solid #303030;
 }
 .burger-line-1{
     height: 3px;
@@ -106,11 +109,9 @@ h1{
 	-ms-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
     transform: rotate(45deg);
-    background: #111;
-    border: 2px solid #8e8e8e;
 }
 .burger-active .burger-line-2{
-    left: -30px;
+    right: -30px;
     opacity: 0;
 }
 .burger-active .burger-line-3{
@@ -120,8 +121,6 @@ h1{
 	-ms-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background: #111;
-    border: 2px solid #8e8e8e;
 }
 
 .header-logo{
@@ -727,4 +726,20 @@ footer{
 .footer-nav:hover{
     background: #fff;
     color: #232323;
+}
+.footer-mob{
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: none;
+}
+.footer-mob h1{
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 500px;
+}
+.footer-mob p{
+    color: #fff;
 }
