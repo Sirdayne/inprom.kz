@@ -85,7 +85,7 @@ h1{
     background: #fff;
     right: 0;
     transition: 0.3s linear;
-    border: 0.5px solid #303030;
+    /*border: 0.5px solid #303030;*/
 }
 .burger-line-1{
     height: 3px;
