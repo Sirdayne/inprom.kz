@@ -190,6 +190,10 @@
         float: left;
         width: 75px;
         margin: 25px;
+        display: none;
+    }
+    .header-address{
+        display: block;
     }
     .header-navigation{
         position: absolute;

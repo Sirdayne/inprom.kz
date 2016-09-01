@@ -129,6 +129,12 @@ h1{
     transform: rotate(-45deg);
 }
 
+.header-address{
+    float: left;
+    margin: 25px;
+    color: #fff;
+    font-size: 14px;
+}
 .header-logo{
     float: left;
     width: 100%;
@@ -737,7 +743,7 @@ h1{
 }
 .button-order{
     display: inline-block;
-    padding: 15px 45px;
+    padding: 15px 75px;
     background: rgba(0,0,0,0);
     border: 1px solid #fff;
     color: #fff;
