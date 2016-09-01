@@ -27,6 +27,13 @@ $(document).ready(function(){
         
     });
     
+    $('.order-call').click(function() {
+
+        $('.offer-call').fadeIn('fast');
+        $('.modal-back').fadeIn('fast');
+        
+    });
+    
 	var $window = $(window);		//Window object
 	
 	var scrollTime = 0.75;			//Scroll time

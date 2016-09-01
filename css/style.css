@@ -54,6 +54,12 @@ h1{
     background-size: cover;
     position: relative;
 }
+#header-prod{
+    height: 100%;
+    background: url(../img/header-about.png) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
 #section1{
     height: 100%;
 }
@@ -585,8 +591,6 @@ h1{
     text-align: left;
 }
 
-
-
 .activity-box-partners{
     float: left;
     width: 50%;
@@ -606,6 +610,70 @@ h1{
 }
 .activity-box-partners{
     text-align: left;
+}
+
+.section-production{
+    float: left;
+    width: 100%;
+    background: #fff;
+    color: #fff;
+}
+.prod-row{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.prod-navigation{
+    display: inline-block;
+    width: 1200px;
+}
+.prod-nav{
+    float: left;
+    width: 200px;
+    margin: 25px;
+    padding: 25px;
+    background: #fff;
+    color: #232323;
+}
+.prod-nav-active{
+    background: #232323;
+    color: #fff;
+}
+
+.product-row{
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.prod-row-img{
+    float: left;
+    width: 30%;
+    height: 600px;
+    background: url(../img/box-benefit.png) center center no-repeat;
+    background-size: cover;
+}
+.prod-row-text{
+    float: left;
+    padding: 0 3% 0 3%;
+    width: 60%;
+    margin-left: 4%;
+    color: #232323;
+    background: #fff;
+    height: 200px;
+}
+.prod-row-adv{
+    float: left;
+    padding: 0 3% 0 3%;
+    width: 60%;
+    margin-left: 4%;
+    color: #fff;
+    background: #232323;
+    height: 400px;
+}
+.prod-row-adv h1{
+    font-size: 26px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .section-work{
@@ -628,19 +696,67 @@ h1{
     text-align: left;
     height: 250px;
 }
+.box-prod{
+    float: left;
+    width: 40%;
+    background: #232323;
+    color: #fff;
+    text-align: left;
+    height: 380px;
+}
 .box-text h1{
     font-size: 38px;
     color: #fff;
     text-align: left;
     margin: 25px;
 }
+.box-prod h2{
+    font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+    text-align: left;
+    margin: 5px 25px;
+}
+.box-prod h2:first-child{
+    margin: 25px 25px 0;
+}
+.box-prod-margin-top{
+    margin-top: 100px;
+}
 .box-text p{
     margin: 25px;
+}
+.box-prod ul{
+    margin: 25px;
+    font-size: 14px;
+}
+.button-row{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.button-order{
+    display: inline-block;
+    padding: 15px 45px;
+    background: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 11px;
+    transition: 0.2s linear;
+}
+.button-order:hover{
+    background: #fff;
+    color: #232323;
 }
 .box-img-reliability, .box-img-benefit, .box-img-partnership, .box-img-benefit-850{
     float: left;
     width: 60%;
     height: 250px;
+}
+.box-img-armature, .box-img-fitings, .box-img-tubes{
+    float: left;
+    width: 60%;
+    height: 380px;
 }
 .box-img-reliability{
     background: url(../img/box-reliability.png) center center no-repeat;
@@ -654,18 +770,35 @@ h1{
     background: url(../img/box-partnership.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-benefit-850{
+.box-img-benefit-850, .box-img-armature-850, .box-img-armature-850{
     display: none;
 }
+.box-img-armature, .box-img-armature-850{
+    background: url(../img/box-partnership.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-fitings{
+    background: url(../img/box-partnership.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-tubes, .box-img-tubes-850{
+    background: url(../img/box-partnership.png) center center no-repeat;
+    background-size: cover;
+}
 
-footer{
+.footer{
     float: left;
     width: 100%;
     background: #232323;
     position: relative;
     margin-top: 105px;
+    text-align: center;
 }
-footer{
+.footer-production{
+    float: left;
+    width: 100%;
+    background: #232323;
+    position: relative;
     text-align: center;
 }
 .footer-row{

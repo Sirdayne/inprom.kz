@@ -21,6 +21,10 @@
     .offer-call{
         margin-top: 75px;
     }
+    #section-header, #header-about, #header-prod,  #section1, .section1-chemistry, .section1-systems{
+        height: 700px;
+        
+    }
 }
 
 /* mobile WIDTH fixes */
@@ -57,12 +61,15 @@
 }
 
 @media only screen and (max-width : 1300px) {
-    .box-text, .box-img-reliability, .box-img-partnership, .box-img-benefit{
+    .box-text, .box-img-reliability, .box-img-partnership, .box-img-benefit, .box-img-armature, .box-img-fitings, .box-img-tubes, .box-prod{
         width: 50%;
     }
 }
 
 @media only screen and (max-width : 1200px) {
+    .prod-navigation{
+        width: 600px;
+    }
     .foot-row{
         margin-right: 30px;
     }
@@ -114,18 +121,41 @@
     .section1-chemistry h1, .section1-systems h1{
         margin-top: 150px;
     }
+    .prod-row-img{
+        height: 200px;
+    }
+    .prod-row-text, .prod-row-img, .prod-row-adv{
+        margin: 0;
+        padding: 1%;
+        width: 98%;
+    }
+    .prod-row-text p{
+        margin: 0 15px 0 15px;
+    }
+    .prod-row-adv ul{
+        margin: 15px;
+    }
 }
-
+@media only screen and (max-width : 950px) {
+    .box-prod ul{
+        font-size: 12px;
+    }
+}
 @media only screen and (max-width : 850px) {
     .box-text, .box-img-reliability, .box-img-partnership, .box-img-benefit-850{
         width: 100%;
         height: 270px;
         float: left;
     }
-    .box-img-benefit{
+    .box-prod, .box-img-armature, .box-img-fitings, .box-img-tubes, .box-img-armature-850, .box-img-tubes-850{
+        width: 100%;
+        height: 400px;
+        float: left;
+    }
+    .box-img-benefit, .box-img-armature, .box-img-tube{
         display: none;
     }
-    .box-img-benefit-850{
+    .box-img-benefit-850, .box-img-armature-850, .box-img-tubes-850{
         display: block;
     }
     .activity-start{
@@ -278,6 +308,18 @@
     .activity-start{
         left: 0;
     }
+    .prod-navigation{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width : 650px) { 
+    .prod-row-adv{
+            height: 600px;
+        }
+    .prod-row-text{
+        height: 250px;
+    }
 }
 
 @media only screen and (max-width : 550px) { 
@@ -299,7 +341,11 @@
         font-size: 12px;
     }
 }
-
+@media only screen and (max-width : 480px) { 
+    .box-prod{
+        height: 500px;
+    }
+}
 @media only screen and (max-width : 450px) { 
     .section1-chemistry h1, .section1-systems h1{
         margin-top: 35px;
@@ -325,6 +371,12 @@
     .foot-ginnova{
         font-size: 13px;
     }
+    .prod-row-adv{
+        height: 700px;
+    }
+    .box-prod-margin-top{
+        margin-top: 135px;
+    }
 }
 
 @media only screen and (max-width : 350px) {
@@ -345,4 +397,7 @@
     .section1-systems p{
         font-size: 12px;
     }
+     .prod-row-adv{
+            height: 800px;
+        }
 }
