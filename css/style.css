@@ -134,6 +134,7 @@ h1{
     margin: 25px;
     color: #fff;
     font-size: 14px;
+    display: none;
 }
 .header-logo{
     float: left;
