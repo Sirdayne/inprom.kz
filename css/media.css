@@ -23,7 +23,6 @@
     }
     #section-header, #header-about, #header-prod,  #section1, .section1-chemistry, .section1-systems{
         height: 700px;
-        
     }
 }
 
@@ -33,6 +32,7 @@
         margin-top: 50px;
     }
 }
+
 @media only screen and (max-width : 1640px) {
     .chemistry-button{
         margin-top: 65px;
@@ -136,11 +136,13 @@
         margin: 15px;
     }
 }
+
 @media only screen and (max-width : 950px) {
     .box-prod ul{
         font-size: 12px;
     }
 }
+
 @media only screen and (max-width : 850px) {
     .box-text, .box-img-reliability, .box-img-partnership, .box-img-benefit-850{
         width: 100%;
@@ -173,6 +175,9 @@
 }
 
 @media only screen and (max-width : 800px) {
+    .header-nav:hover{
+        color: #fff;
+    }
     .footer-mob-hide{
         display: none;
     }
@@ -236,7 +241,7 @@
         font-size: 20px;
     }
     .header-title, .about-title{
-        margin-top: 25px;
+        margin-top: 100px;
     }
     .header-button{
         margin-top: 55px;
@@ -345,14 +350,22 @@
         font-size: 12px;
     }
 }
+
 @media only screen and (max-width : 480px) { 
     .box-prod{
         height: 500px;
     }
 }
+
 @media only screen and (max-width : 450px) { 
-    .section1-chemistry h1, .section1-systems h1{
+    .section1-systems h1{
         margin-top: 35px;
+    }
+    .section1-chemistry p{
+        margin: 25px;
+    }
+    .chemistry-button{
+        margin-top: 50px;
     }
     .section1-systems p{
         font-size: 14px;

@@ -1,9 +1,8 @@
 $(document).ready(function(){        
     $('.burger-menu').click(function() {
         $(this).toggleClass('burger-active');
-        $('.header-navigation').slideToggle('fast');
+        $('.header-navigation').fadeToggle('fast');
     });
-    
     
     $('.partners-logo img').click(function() {
         
@@ -18,7 +17,6 @@ $(document).ready(function(){
         $('.modal-back').fadeOut('fast'); 
         
     });
-    
     
     $('#call').click(function() {
 
@@ -43,7 +41,7 @@ $(document).ready(function(){
             $window.on("mousewheel DOMMouseScroll", function(event){
 
                 event.preventDefault();	
-
+          
                 var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
                 var scrollTop = $window.scrollTop();
                 var finalScroll = scrollTop - parseInt(delta*scrollDistance);
@@ -56,6 +54,5 @@ $(document).ready(function(){
                     });
 
             });
-	   }
-        
+	   } 
 });

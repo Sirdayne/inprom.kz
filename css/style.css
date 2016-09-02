@@ -14,6 +14,7 @@
     0% {background-position: left;}
     100% {background-position: right;}
 }
+
 html{
     height: 100%;
     width: 100%;
@@ -27,6 +28,7 @@ body{
 h1{
     letter-spacing: 2px;
 }
+
 .modal-back{
     position: fixed;
     top: 0;
