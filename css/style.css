@@ -213,7 +213,7 @@ h1{
     color: #fff;
 }
 .about-title p{
-    margin-top: 25px;
+    margin-top: 55px;
     width: 80%;
     margin-left: 10%;
     color: #fff;
@@ -232,7 +232,7 @@ h1{
     color: #fff;
 }
 .prod-title p{
-    margin-top: 55px;
+    margin-top: 75px;
     width: 80%;
     margin-left: 10%;
     color: #fff;
@@ -580,13 +580,13 @@ h1{
 .activity-start{
     position: absolute;
     top: 100px;
-    left: -50px;
-    width: 200px;
+    left: -75px;
+    width: 250px;
     background: #232323;
     color: #fff;
 }
 .activity-start h1{
-    margin: 45px 25px 2px 25px;
+    margin: 85px 25px 2px 25px;
     font-size: 38px;
     text-align: left;
     color: #fff;
@@ -594,7 +594,7 @@ h1{
 .activity-start p{
     color: #fff;
     font-size: 18px;
-    margin: 2px 25px 45px 25px;
+    margin: 2px 25px 85px 25px;
 }
 .activity-box-left, .activity-box-right{
     float: left;
@@ -617,7 +617,7 @@ h1{
 }
 .activity-box-left p, .activity-box-right p{
     font-size: 16px;
-    margin: 15px 15px 45px 15px;
+    margin: 15px 25px 45px 25px;
 }
 .activity-box-left{
     text-align: right;
@@ -641,7 +641,7 @@ h1{
 }
 .activity-box-partners p{
     font-size: 16px;
-    margin: 15px 15px 45px 15px;
+    margin: 15px 25px 45px 25px;
 }
 .activity-box-partners{
     text-align: left;
@@ -679,6 +679,16 @@ h1{
 .prod-nav:hover{
     background: #232323;
     color: #fff;
+}
+
+.js-vodosnabjenie, .js-teplosnabjenie{
+    padding: 40px 25px;
+}
+.js-aggressive{
+    padding: 29px 25px;
+}
+.js-gazosnabjenie{
+    padding: 51px 25px;
 }
 
 .product-row{
@@ -746,7 +756,7 @@ h1{
     background: #232323;
     color: #fff;
     text-align: left;
-    height: 250px;
+    height: 300px;
 }
 .box-prod{
     float: left;
@@ -760,7 +770,7 @@ h1{
     font-size: 38px;
     color: #fff;
     text-align: left;
-    margin: 25px 55px;
+    margin: 55px 55px 0 55px;
 }
 
 .box-text p{
@@ -808,12 +818,15 @@ h1{
 .box-img-reliability, .box-img-benefit, .box-img-partnership, .box-img-benefit-850{
     float: left;
     width: 60%;
-    height: 250px;
+    height: 300px;
 }
-.box-img-vodosnabjenie-1, .box-img-vodosnabjenie-2, .box-img-vodosnabjenie-3{
+.box-img-vodosnabjenie-1, .box-img-vodosnabjenie-2, .box-img-vodosnabjenie-3, .box-img-vodosnabjenie-1-850, .box-img-vodosnabjenie-3-850{
     float: left;
     width: 60%;
     height: 450px;
+}
+.box-img-vodosnabjenie-1-850, .box-img-vodosnabjenie-3-850{
+    display: none;
 }
 
 .box-img-teplosnabjenie-1, .box-img-teplosnabjenie-2, .box-img-teplosnabjenie-3{
@@ -822,16 +835,27 @@ h1{
     height: 450px;
 }
 
-.box-img-aggressive-1, .box-img-aggressive-2{
+.box-img-teplosnabjenie-1-850, .box-img-teplosnabjenie-3-850{
+    display: none;
+}
+
+.box-img-aggressive-1, .box-img-aggressive-2, .box-img-aggressive-1-850{
     float: left;
     width: 60%;
     height: 450px;
 }
 
-.box-img-gazosnabjenie-1, .box-img-gazosnabjenie-2{
+.box-img-aggressive-1-850{
+    display: none;
+}
+
+.box-img-gazosnabjenie-1, .box-img-gazosnabjenie-2, .box-img-gazosnabjenie-1-850{
     float: left;
     width: 60%;
     height: 450px;
+}
+.box-img-gazosnabjenie-1-850{
+    display: none;
 }
 
 .box-img-reliability{
@@ -849,7 +873,7 @@ h1{
 .box-img-benefit-850{
     display: none;
 }
-.box-img-vodosnabjenie-1{
+.box-img-vodosnabjenie-1, .box-img-vodosnabjenie-1-850{
     background: url(../img/vodosnabjenie-1.png) center center no-repeat;
     background-size: cover;
 }
@@ -857,12 +881,12 @@ h1{
     background: url(../img/vodosnabjenie-2.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-vodosnabjenie-3{
+.box-img-vodosnabjenie-3, .box-img-vodosnabjenie-3-850{
     background: url(../img/vodosnabjenie-3.png) center center no-repeat;
     background-size: cover;
 }
 
-.box-img-vodosnabjenie-1:hover{
+.box-img-vodosnabjenie-1:hover, .box-img-vodosnabjenie-1-850:hover{
     background: url(../img/vodosnabjenie-1-hover.png) center center no-repeat;
     background-size: cover;
 }
@@ -870,13 +894,13 @@ h1{
     background: url(../img/vodosnabjenie-2-hover.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-vodosnabjenie-3:hover{
+.box-img-vodosnabjenie-3:hover, .box-img-vodosnabjenie-3-850:hover{
     background: url(../img/vodosnabjenie-3-hover.png) center center no-repeat;
     background-size: cover;
 }
 
 
-.box-img-teplosnabjenie-1{
+.box-img-teplosnabjenie-1, .box-img-teplosnabjenie-1-850{
     background: url(../img/teplosnabjenie-1.png) center center no-repeat;
     background-size: cover;
 }
@@ -884,12 +908,12 @@ h1{
     background: url(../img/teplosnabjenie-2.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-teplosnabjenie-3{
+.box-img-teplosnabjenie-3, .box-img-teplosnabjenie-3-850{
     background: url(../img/teplosnabjenie-3.png) center center no-repeat;
     background-size: cover;
 }
 
-.box-img-teplosnabjenie-1:hover{
+.box-img-teplosnabjenie-1:hover, .box-img-teplosnabjenie-1-850:hover{
     background: url(../img/teplosnabjenie-1-hover.png) center center no-repeat;
     background-size: cover;
 }
@@ -897,13 +921,13 @@ h1{
     background: url(../img/teplosnabjenie-2-hover.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-teplosnabjenie-3:hover{
+.box-img-teplosnabjenie-3:hover, .box-img-teplosnabjenie-3-850:hover{
     background: url(../img/teplosnabjenie-3-hover.png) center center no-repeat;
     background-size: cover;
 }
 
 
-.box-img-aggressive-1{
+.box-img-aggressive-1, .box-img-aggressive-1-850{
     background: url(../img/aggressive-1.png) center center no-repeat;
     background-size: cover;
 }
@@ -912,7 +936,7 @@ h1{
     background-size: cover;
 }
 
-.box-img-aggressive-1:hover{
+.box-img-aggressive-1:hover, .box-img-aggressive-1-850:hover{
     background: url(../img/aggressive-1-hover.png) center center no-repeat;
     background-size: cover;
 }
@@ -921,7 +945,7 @@ h1{
     background-size: cover;
 }
 
-.box-img-gazosnabjenie-1{
+.box-img-gazosnabjenie-1, .box-img-gazosnabjenie-1-850{
     background: url(../img/gazosnabjenie-1.png) center center no-repeat;
     background-size: cover;
 }
@@ -930,7 +954,7 @@ h1{
     background-size: cover;
 }
 
-.box-img-gazosnabjenie-1:hover{
+.box-img-gazosnabjenie-1:hover, .box-img-gazosnabjenie-1-850:hover{
     background: url(../img/gazosnabjenie-1-hover.png) center center no-repeat;
     background-size: cover;
 }

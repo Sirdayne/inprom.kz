@@ -10,10 +10,10 @@
         margin-top: 25px;
     }
     .header-title, .about-title, .prod-title{
-        margin-top: 25px;
+        margin-top: 55px;
     }
     .header-button{
-        margin-top: 35px;
+        margin-top: 55px;
     }
 }
 
@@ -34,9 +34,7 @@
 }
 
 @media only screen and (max-width : 1640px) {
-    .chemistry-button{
-        margin-top: 65px;
-    }
+    
     .about-title p{
         font-size: 16px;
     }
@@ -63,21 +61,13 @@
     }
 }
 
-@media only screen and (max-width : 1300px) {
+@media only screen and (max-width : 1320px) {
     .box-text, .box-img-reliability, .box-img-partnership, .box-img-benefit{
         width: 50%;
     }
-    .box-prod, .box-img-vodosnabjenie-1, .box-img-vodosnabjenie-2, .box-img-vodosnabjenie-3{
+    .box-prod, .box-img-vodosnabjenie-1, .box-img-vodosnabjenie-2, .box-img-vodosnabjenie-3, .box-img-vodosnabjenie-1-850, .box-img-vodosnabjenie-3-850, .box-img-teplosnabjenie-1, .box-img-teplosnabjenie-2, .box-img-teplosnabjenie-3, .box-img-teplosnabjenie-1-850, .box-img-teplosnabjenie-3-850, .box-img-aggressive-1, .box-img-aggressive-2, .box-img-aggressive-1-850, .box-img-gazosnabjenie-1, .box-img-gazosnabjenie-2, .box-img-gazosnabjenie-1-850{
         width: 50%;
-    }
-    .box-img-teplosnabjenie-1, .box-img-teplosnabjenie-2, .box-img-teplosnabjenie-3{
-        width: 50%;
-    }
-    .box-img-aggressive-1, .box-img-aggressive-2{
-        width: 50%;
-    }
-    .box-img-gazosnabjenie-1, .box-img-gazosnabjenie-2{
-        width: 50%;
+        height: 500px;
     }
 }
 
@@ -169,25 +159,49 @@
         height: 270px;
         float: left;
     }
-    .box-prod, .box-img-vodosnabjenie-1, .box-img-vodosnabjenie-2, .box-img-vodosnabjenie-3{
+    .box-prod, .box-img-vodosnabjenie-1, .box-img-vodosnabjenie-2, .box-img-vodosnabjenie-1-850, .box-img-vodosnabjenie-3-850, .box-img-vodosnabjenie-3{
         width: 100%;
         float: left;
         height: 350px;
     }
-    .box-img-teplosnabjenie-1, .box-img-teplosnabjenie-2, .box-img-teplosnabjenie-3{
+    .box-img-vodosnabjenie-1, .box-img-vodosnabjenie-3{
+        display: none;
+    }
+    .box-img-vodosnabjenie-1-850, .box-img-vodosnabjenie-3-850{
+        display: block;
+    }
+    .box-img-teplosnabjenie-1, .box-img-teplosnabjenie-2, .box-img-teplosnabjenie-3, .box-img-teplosnabjenie-1-850, .box-img-teplosnabjenie-3-850{
         width: 100%;
         float: left;
         height: 350px;
     }
-    .box-img-aggressive-1, .box-img-aggressive-2{
+    .box-img-teplosnabjenie-1, .box-img-teplosnabjenie-3{
+        display: none;
+    }
+    .box-img-teplosnabjenie-1-850, .box-img-teplosnabjenie-3-850{
+        display: block;
+    }
+    .box-img-aggressive-1, .box-img-aggressive-2, .box-img-aggressive-1-850{
         width: 100%;
         float: left;
         height: 350px;
     }
-    .box-img-gazosnabjenie-1, .box-img-gazosnabjenie-2{
+    .box-img-aggressive-1{
+        display: none;
+    }
+    .box-img-aggressive-1-850{
+        display: block;
+    }
+    .box-img-gazosnabjenie-1, .box-img-gazosnabjenie-2, .box-img-gazosnabjenie-1-850{
         width: 100%;
         float: left;
         height: 350px;
+    }
+    .box-img-gazosnabjenie-1{
+        display: none;
+    }
+    .box-img-gazosnabjenie-1-850{
+        display: block;
     }
     .box-prod h2, .box-prod h2:first-child,  .box-prod ul{
         margin: 25px;
@@ -213,9 +227,6 @@
 }
 
 @media only screen and (max-width : 800px) {
-    .header-nav:hover{
-        color: #fff;
-    }
     .footer-mob-hide{
         display: none;
     }
@@ -268,6 +279,13 @@
     .footer-nav{
         width: 100%;
         margin: 0;
+    }
+    
+    .activity-box-left h1, .activity-box-right h1, .activity-box-partners h1{
+        font-size: 17px;
+    }
+    .activity-box-left p, .activity-box-right p, .activity-box-partners p{
+        font-size: 14px;
     }
 }
 
@@ -344,12 +362,6 @@
     .partners-logos img{
         width: 100%;
     }
-    .activity-box-left h1, .activity-box-right h1, .activity-box-partners h1{
-        font-size: 17px;
-    }
-    .activity-box-left p, .activity-box-right p, .activity-box-partners p{
-        font-size: 14px;
-    }
     .section-activity{
         width: 90%;
         margin-left: 5%;
@@ -379,8 +391,11 @@
     .box-text h1{
         font-size: 22px;
     }
-    .box-text h1, .box-text p{
-        margin: 10px;            
+    .box-text h1{
+        margin: 35px 10px 10px 10px;
+    }
+    .box-text p{
+        margin: 10px;          
     }
     .section-activity{
         width: 100%;
