@@ -58,7 +58,7 @@ h1{
 }
 #header-prod{
     height: 100%;
-    background: url(../img/header-about.png) center center no-repeat;
+    background: url(../img/header-production.png) center center no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -200,6 +200,7 @@ h1{
     font-size: 65px;
     color: #fff;
 }
+
 .about-title {
     float: left;
     width: 100%;
@@ -218,6 +219,26 @@ h1{
     color: #fff;
     font-size: 30px;
 }
+
+.prod-title {
+    float: left;
+    width: 100%;
+    margin-top: 10vh;
+    text-align: center;
+    color: #fff;
+}
+.prod-title h1{
+    font-size: 65px;
+    color: #fff;
+}
+.prod-title p{
+    margin-top: 55px;
+    width: 80%;
+    margin-left: 10%;
+    color: #fff;
+    font-size: 36px;
+}
+
 .header-button{
     float: left;
     width: 100%;
@@ -251,7 +272,7 @@ h1{
 .section1-chemistry h1, .section1-systems h1{
     margin-top: 40vh;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 46px;
     color:  #fff;
 }
 .section1-chemistry p, .section1-systems p{
@@ -282,8 +303,8 @@ h1{
 }
 .causes-title h1{
     color: #fff;
-    font-weight: 600;
-    font-size: 56px;
+    font-weight: 100;
+    font-size: 60px;
 }
 .causes-bottom{
     position: absolute;
@@ -300,7 +321,7 @@ h1{
 .causes-bottom-1, .causes-bottom-2{
     float: left;
     height: 300px;
-    width: 500px;
+    width: 550px;
     text-align: center;
     color: #fff;
     transition: .3s linear;
@@ -323,8 +344,8 @@ h1{
 }
 .causes-bottom-1 h1, .causes-bottom-2 h1{
     margin-top: 115px;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 100;
     margin-bottom: 5px;
 }
 .causes-top{
@@ -338,7 +359,7 @@ h1{
 .causes-top-1, .causes-top-2{
     float: left;
     height: 300px;
-    width: 500px;
+    width: 550px;
     text-align: center;
     color: #fff;
     transition: .3s linear;
@@ -361,9 +382,14 @@ h1{
 }
 .causes-top-1 h1, .causes-top-2 h1{
     margin-top: 115px;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 100;
     margin-bottom: 5px;
+}
+.causes-bottom-1 p, .causes-bottom-2 p, .causes-top-1 p, .causes-top-2 p{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .offer{
     float: left;
@@ -643,8 +669,14 @@ h1{
     padding: 25px;
     background: #fff;
     color: #232323;
+    transition: .2s linear;
+    cursor: pointer;
 }
 .prod-nav-active{
+    background: #232323;
+    color: #fff;
+}
+.prod-nav:hover{
     background: #232323;
     color: #fff;
 }
@@ -697,6 +729,17 @@ h1{
     color: #232323;
     text-align: center;
 }
+
+.section-vodosnabjenie, .section-teplosnabjenie, .section-aggressive, .section-gazosnabjenie{
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+
+.section-teplosnabjenie, .section-aggressive, .section-gazosnabjenie{
+    display: none;
+}
+
 .box-text{
     float: left;
     width: 40%;
@@ -711,32 +754,37 @@ h1{
     background: #232323;
     color: #fff;
     text-align: left;
-    height: 380px;
+    height: 450px;
 }
 .box-text h1{
     font-size: 38px;
     color: #fff;
     text-align: left;
-    margin: 25px;
+    margin: 25px 55px;
 }
+
+.box-text p{
+    margin: 25px 55px;
+}
+
+
 .box-prod h2{
     font-size: 18px;
     font-weight: 100;
     color: #fff;
     text-align: left;
-    margin: 5px 25px;
+    margin: 5px 55px;
+    text-transform: uppercase;
 }
 .box-prod h2:first-child{
-    margin: 25px 25px 0;
+    margin: 25px 55px 0;
 }
 .box-prod-margin-top{
     margin-top: 100px;
 }
-.box-text p{
-    margin: 25px;
-}
+
 .box-prod ul{
-    margin: 25px;
+    margin: 25px 55px;
     font-size: 14px;
 }
 .button-row{
@@ -762,11 +810,30 @@ h1{
     width: 60%;
     height: 250px;
 }
-.box-img-armature, .box-img-fitings, .box-img-tubes{
+.box-img-vodosnabjenie-1, .box-img-vodosnabjenie-2, .box-img-vodosnabjenie-3{
     float: left;
     width: 60%;
-    height: 380px;
+    height: 450px;
 }
+
+.box-img-teplosnabjenie-1, .box-img-teplosnabjenie-2, .box-img-teplosnabjenie-3{
+    float: left;
+    width: 60%;
+    height: 450px;
+}
+
+.box-img-aggressive-1, .box-img-aggressive-2{
+    float: left;
+    width: 60%;
+    height: 450px;
+}
+
+.box-img-gazosnabjenie-1, .box-img-gazosnabjenie-2{
+    float: left;
+    width: 60%;
+    height: 450px;
+}
+
 .box-img-reliability{
     background: url(../img/box-reliability.png) center center no-repeat;
     background-size: cover;
@@ -779,19 +846,96 @@ h1{
     background: url(../img/box-partnership.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-benefit-850, .box-img-armature-850, .box-img-armature-850{
+.box-img-benefit-850{
     display: none;
 }
-.box-img-armature, .box-img-armature-850{
-    background: url(../img/box-partnership.png) center center no-repeat;
+.box-img-vodosnabjenie-1{
+    background: url(../img/vodosnabjenie-1.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-fitings{
-    background: url(../img/box-partnership.png) center center no-repeat;
+.box-img-vodosnabjenie-2{
+    background: url(../img/vodosnabjenie-2.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-tubes, .box-img-tubes-850{
-    background: url(../img/box-partnership.png) center center no-repeat;
+.box-img-vodosnabjenie-3{
+    background: url(../img/vodosnabjenie-3.png) center center no-repeat;
+    background-size: cover;
+}
+
+.box-img-vodosnabjenie-1:hover{
+    background: url(../img/vodosnabjenie-1-hover.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-vodosnabjenie-2:hover{
+    background: url(../img/vodosnabjenie-2-hover.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-vodosnabjenie-3:hover{
+    background: url(../img/vodosnabjenie-3-hover.png) center center no-repeat;
+    background-size: cover;
+}
+
+
+.box-img-teplosnabjenie-1{
+    background: url(../img/teplosnabjenie-1.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-teplosnabjenie-2{
+    background: url(../img/teplosnabjenie-2.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-teplosnabjenie-3{
+    background: url(../img/teplosnabjenie-3.png) center center no-repeat;
+    background-size: cover;
+}
+
+.box-img-teplosnabjenie-1:hover{
+    background: url(../img/teplosnabjenie-1-hover.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-teplosnabjenie-2:hover{
+    background: url(../img/teplosnabjenie-2-hover.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-teplosnabjenie-3:hover{
+    background: url(../img/teplosnabjenie-3-hover.png) center center no-repeat;
+    background-size: cover;
+}
+
+
+.box-img-aggressive-1{
+    background: url(../img/aggressive-1.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-aggressive-2{
+    background: url(../img/aggressive-2.png) center center no-repeat;
+    background-size: cover;
+}
+
+.box-img-aggressive-1:hover{
+    background: url(../img/aggressive-1-hover.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-aggressive-2:hover{
+    background: url(../img/aggressive-2-hover.png) center center no-repeat;
+    background-size: cover;
+}
+
+.box-img-gazosnabjenie-1{
+    background: url(../img/gazosnabjenie-1.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-gazosnabjenie-2{
+    background: url(../img/gazosnabjenie-2.png) center center no-repeat;
+    background-size: cover;
+}
+
+.box-img-gazosnabjenie-1:hover{
+    background: url(../img/gazosnabjenie-1-hover.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-gazosnabjenie-2:hover{
+    background: url(../img/gazosnabjenie-2-hover.png) center center no-repeat;
     background-size: cover;
 }
 

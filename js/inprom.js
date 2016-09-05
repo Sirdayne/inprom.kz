@@ -32,6 +32,39 @@ $(document).ready(function(){
         
     });
     
+    
+    $('.js-vodosnabjenie').click(function() {
+        $('.prod-nav').removeClass('prod-nav-active');
+        $(this).addClass('prod-nav-active');
+        $('.js-section').fadeOut('fast');
+        $('.section-vodosnabjenie').fadeIn('fast'); 
+        
+    });
+    
+    $('.js-teplosnabjenie').click(function() {
+        $('.prod-nav').removeClass('prod-nav-active');
+        $(this).addClass('prod-nav-active');
+        $('.js-section').fadeOut('fast');
+        $('.section-teplosnabjenie').fadeIn('fast'); 
+        
+    });
+    
+    $('.js-aggressive').click(function() {
+        $('.prod-nav').removeClass('prod-nav-active');
+        $(this).addClass('prod-nav-active');
+        $('.js-section').fadeOut('fast');
+        $('.section-aggressive').fadeIn('fast'); 
+        
+    });
+    
+    $('.js-gazosnabjenie').click(function() {
+        $('.prod-nav').removeClass('prod-nav-active');
+        $(this).addClass('prod-nav-active');
+        $('.js-section').fadeOut('fast');
+        $('.section-gazosnabjenie').fadeIn('fast'); 
+        
+    });
+    
 	var $window = $(window);		//Window object
 	
 	var scrollTime = 0.75;			//Scroll time

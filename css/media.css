@@ -1,7 +1,7 @@
 /* mobile HEIGHT fixes */
-@media only screen and (max-height : 1300px) {
+@media only screen and (max-height : 1600px) {
     .offer-call{
-        margin-top: 250px;
+        margin-top: 200px;
     }
 }
 
@@ -9,7 +9,7 @@
     .header-logo{
         margin-top: 25px;
     }
-    .header-title, .about-title{
+    .header-title, .about-title, .prod-title{
         margin-top: 25px;
     }
     .header-button{
@@ -40,6 +40,9 @@
     .about-title p{
         font-size: 16px;
     }
+    .prod-title p{
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width : 1549px) {
@@ -49,7 +52,7 @@
 }
 
 @media only screen and (max-width : 1500px) {
-    .header-title h1, .about-title h1{
+    .header-title h1, .about-title h1, .prod-title h1{
         font-size: 45px;
     }
 }
@@ -61,7 +64,19 @@
 }
 
 @media only screen and (max-width : 1300px) {
-    .box-text, .box-img-reliability, .box-img-partnership, .box-img-benefit, .box-img-armature, .box-img-fitings, .box-img-tubes, .box-prod{
+    .box-text, .box-img-reliability, .box-img-partnership, .box-img-benefit{
+        width: 50%;
+    }
+    .box-prod, .box-img-vodosnabjenie-1, .box-img-vodosnabjenie-2, .box-img-vodosnabjenie-3{
+        width: 50%;
+    }
+    .box-img-teplosnabjenie-1, .box-img-teplosnabjenie-2, .box-img-teplosnabjenie-3{
+        width: 50%;
+    }
+    .box-img-aggressive-1, .box-img-aggressive-2{
+        width: 50%;
+    }
+    .box-img-gazosnabjenie-1, .box-img-gazosnabjenie-2{
         width: 50%;
     }
 }
@@ -75,6 +90,7 @@
     }
     .section1-chemistry h1, .section1-systems h1{
         margin-top: 180px;
+        font-size: 36px;
     }
     .activity-start{
         top: 100px;
@@ -120,6 +136,7 @@
     }
     .section1-chemistry h1, .section1-systems h1{
         margin-top: 150px;
+        font-size: 26px;
     }
     .prod-row-img{
         height: 200px;
@@ -144,20 +161,41 @@
 }
 
 @media only screen and (max-width : 850px) {
+    .box-prod-margin-top{
+        margin-top: 50px;
+    }
     .box-text, .box-img-reliability, .box-img-partnership, .box-img-benefit-850{
         width: 100%;
         height: 270px;
         float: left;
     }
-    .box-prod, .box-img-armature, .box-img-fitings, .box-img-tubes, .box-img-armature-850, .box-img-tubes-850{
+    .box-prod, .box-img-vodosnabjenie-1, .box-img-vodosnabjenie-2, .box-img-vodosnabjenie-3{
         width: 100%;
-        height: 400px;
         float: left;
+        height: 350px;
     }
-    .box-img-benefit, .box-img-armature, .box-img-tube{
+    .box-img-teplosnabjenie-1, .box-img-teplosnabjenie-2, .box-img-teplosnabjenie-3{
+        width: 100%;
+        float: left;
+        height: 350px;
+    }
+    .box-img-aggressive-1, .box-img-aggressive-2{
+        width: 100%;
+        float: left;
+        height: 350px;
+    }
+    .box-img-gazosnabjenie-1, .box-img-gazosnabjenie-2{
+        width: 100%;
+        float: left;
+        height: 350px;
+    }
+    .box-prod h2, .box-prod h2:first-child,  .box-prod ul{
+        margin: 25px;
+    }
+    .box-img-benefit{
         display: none;
     }
-    .box-img-benefit-850, .box-img-armature-850, .box-img-tubes-850{
+    .box-img-benefit-850{
         display: block;
     }
     .activity-start{
@@ -237,10 +275,13 @@
     .about-title p{
         font-size: 14px;
     }
-    .header-title h1,  .about-title h1{
+    .prod-title p{
+        font-size: 14px;
+    }
+    .header-title h1,  .about-title h1, .prod-title h1{
         font-size: 20px;
     }
-    .header-title, .about-title{
+    .header-title, .about-title, .prod-title{
         margin-top: 100px;
     }
     .header-button{
@@ -324,8 +365,8 @@
 
 @media only screen and (max-width : 650px) { 
     .prod-row-adv{
-            height: 600px;
-        }
+        height: 600px;
+    }
     .prod-row-text{
         height: 250px;
     }
@@ -349,11 +390,20 @@
     .about-title p{
         font-size: 12px;
     }
+    .prod-title p{
+        font-size: 12px;
+    }
+    .box-prod{
+        height: 400px;
+    }
+    .box-prod-margin-top{
+        margin-top: 0;
+    }
 }
 
 @media only screen and (max-width : 480px) { 
     .box-prod{
-        height: 500px;
+        height: 400px;
     }
 }
 
@@ -391,8 +441,8 @@
     .prod-row-adv{
         height: 700px;
     }
-    .box-prod-margin-top{
-        margin-top: 135px;
+    .box-prod{
+        height: 450px;
     }
 }
 
