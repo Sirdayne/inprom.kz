@@ -21,7 +21,7 @@
     .offer-call{
         margin-top: 75px;
     }
-    #section-header, #header-about, #header-prod,  #section1, .section1-chemistry, .section1-systems{
+    #section-header, #header-about, #header-prod, #header-chem,  #section1, .section1-chemistry, .section1-systems{
         height: 700px;
     }
 }
@@ -74,6 +74,9 @@
 @media only screen and (max-width : 1200px) {
     .prod-navigation{
         width: 600px;
+    }
+    .chem-navigation{
+        width: 580px;
     }
     .foot-row{
         margin-right: 30px;
@@ -381,6 +384,9 @@
     }
     .prod-navigation{
         width: 300px;
+    }
+    .chem-navigation{
+        width: 240px;
     }
 }
 

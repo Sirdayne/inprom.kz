@@ -65,6 +65,47 @@ $(document).ready(function(){
         
     });
     
+    $('.js-dobavki').click(function() {
+        $('.chem-nav').removeClass('prod-nav-active');
+        $(this).addClass('prod-nav-active');
+        $('.js-section').fadeOut('fast');
+        $('.section-dobavki').fadeIn('fast'); 
+        
+    });
+    
+    $('.js-remont').click(function() {
+        $('.chem-nav').removeClass('prod-nav-active');
+        $(this).addClass('prod-nav-active');
+        $('.js-section').fadeOut('fast');
+        $('.section-remont').fadeIn('fast'); 
+        
+    });
+    
+    $('.js-promy').click(function() {
+        $('.chem-nav').removeClass('prod-nav-active');
+        $(this).addClass('prod-nav-active');
+        $('.js-section').fadeOut('fast');
+        $('.section-promy').fadeIn('fast'); 
+        
+    });
+    
+    $('.js-hydro').click(function() {
+        $('.chem-nav').removeClass('prod-nav-active');
+        $(this).addClass('prod-nav-active');
+        $('.js-section').fadeOut('fast');
+        $('.section-hydro').fadeIn('fast'); 
+        
+    });
+    
+    $('.js-klei').click(function() {
+        $('.chem-nav').removeClass('prod-nav-active');
+        $(this).addClass('prod-nav-active');
+        $('.js-section').fadeOut('fast');
+        $('.section-klei').fadeIn('fast'); 
+        
+    });
+    
+    
 	var $window = $(window);		//Window object
 	
 	var scrollTime = 0.75;			//Scroll time

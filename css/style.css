@@ -62,6 +62,12 @@ h1{
     background-size: cover;
     position: relative;
 }
+#header-chem{
+    height: 100%;
+    background: url(../img/header-chemistry.png) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
 #section1{
     height: 100%;
 }
@@ -92,7 +98,7 @@ h1{
     position: absolute;
     background: #fff;
     right: 0;
-    transition: 0.3s linear;
+    transition: 0.4s linear;
     /*border: 0.5px solid #303030;*/
 }
 .burger-line-1{
@@ -177,20 +183,20 @@ h1{
     background-position: right;
 }
 .header-nav:hover{
-    -webkit-animation: header-nav .2s;
-    animation: header-nav .2s;
+    -webkit-animation: header-nav .4s;
+    animation: header-nav .4s;
     color: #232323;
     background-position: left;
 }
 .header-nav:not(:hover){
-    -webkit-animation: header-nav-back .2s;
-    animation: header-nav-back .2s;
+    -webkit-animation: header-nav-back .4s;
+    animation: header-nav-back .4s;
 }
 .header-nav-mobile, .footer-nav-mobile{
     display: none;
 }
 .header-nav-mobile p{
-    margin: 15px 15px 25px 15px;
+    margin: 20px 15px 25px 15px;
 }
 .header-prod{
     position: relative;
@@ -220,14 +226,14 @@ h1{
     margin: 25px 0 25px 0;
 }
 .header-prod-nav:hover{
-    -webkit-animation: header-nav .2s;
-    animation: header-nav .2s;
+    -webkit-animation: header-nav .4s;
+    animation: header-nav .4s;
     color: #fff;
     background-position: left;
 }
 .header-prod-nav:not(:hover){
-    -webkit-animation: header-nav-back .2s;
-    animation: header-nav-back .2s;
+    -webkit-animation: header-nav-back .4s;
+    animation: header-nav-back .4s;
 }
 
 .header-prod:hover .header-prod-navigation{
@@ -310,7 +316,7 @@ h1{
     height: 100%;
     text-align: center;
     color:  #fff;
-    transition: .3s linear;
+    transition: .4s linear;
 }
 .section1-chemistry h1, .section1-systems h1{
     margin-top: 40vh;
@@ -367,7 +373,7 @@ h1{
     width: 550px;
     text-align: center;
     color: #fff;
-    transition: .3s linear;
+    transition: .4s linear;
 }
 .causes-bottom-1{
     background: url(../img/section-drive.png) center center no-repeat;
@@ -405,7 +411,7 @@ h1{
     width: 550px;
     text-align: center;
     color: #fff;
-    transition: .3s linear;
+    transition: .4s linear;
 }
 .causes-top-1{
     background: url(../img/section-client.png) center center no-repeat;
@@ -701,6 +707,11 @@ h1{
     width: 100%;
     text-align: center;
 }
+.chem-row{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
 .prod-navigation{
     display: inline-block;
     width: 1200px;
@@ -724,6 +735,26 @@ h1{
     color: #fff;
 }
 
+.chem-navigation{
+    display: inline-block;
+    width: 1200px;
+}
+.chem-nav{
+    float: left;
+    width: 160px;
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    color: #232323;
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+.chem-nav:hover{
+    background: #232323;
+    color: #fff;
+}
+
 .js-vodosnabjenie, .js-teplosnabjenie{
     padding: 40px 25px;
 }
@@ -732,6 +763,10 @@ h1{
 }
 .js-gazosnabjenie{
     padding: 51px 25px;
+}
+
+.js-dobavki, .js-hydro, .js-klei{
+    padding: 31px 20px;
 }
 
 .product-row{
@@ -790,6 +825,16 @@ h1{
 }
 
 .section-teplosnabjenie, .section-aggressive, .section-gazosnabjenie{
+    display: none;
+}
+
+.section-dobavki, .section-remont, .section-promy, .section-hydro, .section-klei{
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+
+.section-remont, .section-promy, .section-hydro, .section-klei{
     display: none;
 }
 
@@ -1008,6 +1053,152 @@ h1{
     background-size: cover;
 }
 
+
+
+
+.box-img-dobavki-1, .box-img-dobavki-2, .box-img-dobavki-3{
+    float: left;
+    width: 60%;
+    height: 450px;
+}
+
+.box-img-dobavki-1{
+    background: url(../img/dobavki-1.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-dobavki-2{
+    background: url(../img/dobavki-2.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-dobavki-3{
+    background: url(../img/dobavki-3.png) center center no-repeat;
+    background-size: cover;
+}
+
+.box-img-dobavki-1:hover{
+    background: url(../img/dobavki-1-hover.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-dobavki-2:hover{
+    background: url(../img/dobavki-2-hover.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-dobavki-3:hover{
+    background: url(../img/dobavki-3-hover.png) center center no-repeat;
+    background-size: cover;
+}
+
+
+
+.box-img-remont-1, .box-img-remont-2, .box-img-remont-3, .box-img-remont-4, .box-img-remont-5, .box-img-remont-6{
+    float: left;
+    width: 60%;
+    height: 450px;
+}
+
+.box-img-remont-1{
+    background: url(../img/remont-1.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-remont-2{
+    background: url(../img/remont-2.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-remont-3{
+    background: url(../img/remont-3.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-remont-4{
+    background: url(../img/remont-4.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-remont-5{
+    background: url(../img/remont-5.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-remont-6{
+    background: url(../img/remont-6.png) center center no-repeat;
+    background-size: cover;
+}
+
+
+.box-img-remont-1:hover{
+    background: url(../img/remont-1-hover.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-remont-2:hover{
+    background: url(../img/remont-2-hover.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-remont-3:hover{
+    background: url(../img/remont-3-hover.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-remont-4:hover{
+    background: url(../img/remont-4-hover.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-remont-5:hover{
+    background: url(../img/remont-5-hover.png) center center no-repeat;
+    background-size: cover;
+}
+.box-img-remont-6:hover{
+    background: url(../img/remont-6-hover.png) center center no-repeat;
+    background-size: cover;
+}
+
+
+
+.box-img-promy-1{
+    float: left;
+    width: 60%;
+    height: 450px;
+}
+
+.box-img-promy-1{
+    background: url(../img/promy-1.png) center center no-repeat;
+    background-size: cover;
+}
+
+.box-img-promy-1:hover{
+    background: url(../img/promy-1-hover.png) center center no-repeat;
+    background-size: cover;
+}
+
+.box-img-hydro-1{
+    float: left;
+    width: 60%;
+    height: 450px;
+}
+
+.box-img-hydro-1{
+    background: url(../img/hydro-1.png) center center no-repeat;
+    background-size: cover;
+}
+
+.box-img-hydro-1:hover{
+    background: url(../img/hydro-1-hover.png) center center no-repeat;
+    background-size: cover;
+}
+
+
+.box-img-klei-1{
+    float: left;
+    width: 60%;
+    height: 450px;
+}
+
+.box-img-klei-1{
+    background: url(../img/klei-1.png) center center no-repeat;
+    background-size: cover;
+}
+
+.box-img-klei-1:hover{
+    background: url(../img/klei-1-hover.png) center center no-repeat;
+    background-size: cover;
+}
+
+
 .footer{
     float: left;
     width: 100%;
@@ -1092,19 +1283,19 @@ h1{
     bottom: 60px;
     left: 0;
     width: 100%;
-    transition: .2s linear;
+    transition: .1s linear;
     display: none;
 }
 .footer-prod-nav{
     float: left;
     width: 100%;
-    background: #232323;
-    color: #fff;
-    transition: .2s linear;
-}
-.footer-prod-nav:hover{
     background: #fff;
     color: #232323;
+    transition: .1s linear;
+}
+.footer-prod-nav:hover{
+    background: #232323;
+    color: #fff;
 }
 .footer-prod-nav p{
     font-size: 12px;
