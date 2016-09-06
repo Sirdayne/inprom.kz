@@ -154,6 +154,9 @@
     .box-prod-margin-top{
         margin-top: 50px;
     }
+    .pol-fit-margin-top{
+        margin-top: 50px;
+    }
     .box-text, .box-img-reliability, .box-img-partnership, .box-img-benefit-850{
         width: 100%;
         height: 270px;
@@ -227,6 +230,12 @@
 }
 
 @media only screen and (max-width : 800px) {
+    .header-prod, .footer-prod{
+        display: none;
+    }
+    .header-nav-mobile, .footer-nav-mobile{
+        display: block;
+    }
     .footer-mob-hide{
         display: none;
     }
@@ -413,6 +422,9 @@
     }
     .box-prod-margin-top{
         margin-top: 0;
+    }
+    .pol-fit-margin-top{
+        margin-top: 50px;
     }
 }
 
