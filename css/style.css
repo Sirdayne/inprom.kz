@@ -726,10 +726,7 @@ h1{
     transition: .2s linear;
     cursor: pointer;
 }
-.prod-nav-active{
-    background: #232323;
-    color: #fff;
-}
+
 .prod-nav:hover{
     background: #232323;
     color: #fff;
@@ -1056,13 +1053,13 @@ h1{
 
 
 
-.box-img-dobavki-1, .box-img-dobavki-2, .box-img-dobavki-3{
+.box-img-dobavki-1, .box-img-dobavki-2, .box-img-dobavki-3, .box-img-dobavki-1-850, .box-img-dobavki-3-850{
     float: left;
     width: 60%;
     height: 450px;
 }
 
-.box-img-dobavki-1{
+.box-img-dobavki-1, .box-img-dobavki-1-850{
     background: url(../img/dobavki-1.png) center center no-repeat;
     background-size: cover;
 }
@@ -1070,12 +1067,12 @@ h1{
     background: url(../img/dobavki-2.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-dobavki-3{
+.box-img-dobavki-3, .box-img-dobavki-3-850{
     background: url(../img/dobavki-3.png) center center no-repeat;
     background-size: cover;
 }
 
-.box-img-dobavki-1:hover{
+.box-img-dobavki-1:hover, .box-img-dobavki-1-850:hover{
     background: url(../img/dobavki-1-hover.png) center center no-repeat;
     background-size: cover;
 }
@@ -1083,9 +1080,13 @@ h1{
     background: url(../img/dobavki-2-hover.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-dobavki-3:hover{
+.box-img-dobavki-3:hover, .box-img-dobavki-3-850:hover{
     background: url(../img/dobavki-3-hover.png) center center no-repeat;
     background-size: cover;
+}
+
+.box-img-dobavki-1-850, .box-img-dobavki-3-850{
+    display: none;
 }
 
 
@@ -1096,7 +1097,13 @@ h1{
     height: 450px;
 }
 
-.box-img-remont-1{
+.box-img-remont-1-850, .box-img-remont-3-850, .box-img-remont-5-850{
+    float: left;
+    width: 60%;
+    height: 450px;
+}
+
+.box-img-remont-1, .box-img-remont-1-850{
     background: url(../img/remont-1.png) center center no-repeat;
     background-size: cover;
 }
@@ -1104,7 +1111,7 @@ h1{
     background: url(../img/remont-2.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-remont-3{
+.box-img-remont-3, .box-img-remont-3-850{
     background: url(../img/remont-3.png) center center no-repeat;
     background-size: cover;
 }
@@ -1112,7 +1119,7 @@ h1{
     background: url(../img/remont-4.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-remont-5{
+.box-img-remont-5, .box-img-remont-5-850{
     background: url(../img/remont-5.png) center center no-repeat;
     background-size: cover;
 }
@@ -1122,7 +1129,7 @@ h1{
 }
 
 
-.box-img-remont-1:hover{
+.box-img-remont-1:hover, .box-img-remont-1-850:hover{
     background: url(../img/remont-1-hover.png) center center no-repeat;
     background-size: cover;
 }
@@ -1130,7 +1137,7 @@ h1{
     background: url(../img/remont-2-hover.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-remont-3:hover{
+.box-img-remont-3:hover, .box-img-remont-3-850:hover{
     background: url(../img/remont-3-hover.png) center center no-repeat;
     background-size: cover;
 }
@@ -1138,7 +1145,7 @@ h1{
     background: url(../img/remont-4-hover.png) center center no-repeat;
     background-size: cover;
 }
-.box-img-remont-5:hover{
+.box-img-remont-5:hover, .box-img-remont-5-850:hover{
     background: url(../img/remont-5-hover.png) center center no-repeat;
     background-size: cover;
 }
@@ -1147,53 +1154,67 @@ h1{
     background-size: cover;
 }
 
+.box-img-remont-1-850, .box-img-remont-3-850, .box-img-remont-5-850{
+    display: none;
+}
 
-
-.box-img-promy-1{
+.box-img-promy-1, .box-img-promy-1-850{
     float: left;
     width: 60%;
     height: 450px;
 }
 
-.box-img-promy-1{
+.box-img-promy-1, .box-img-promy-1-850{
     background: url(../img/promy-1.png) center center no-repeat;
     background-size: cover;
 }
 
-.box-img-promy-1:hover{
+.box-img-promy-1:hover, .box-img-promy-1-850:hover{
     background: url(../img/promy-1-hover.png) center center no-repeat;
     background-size: cover;
 }
 
-.box-img-hydro-1{
+.box-img-promy-1-850{
+    display: none;
+}
+
+.box-img-hydro-1, .box-img-hydro-1-850{
     float: left;
     width: 60%;
     height: 450px;
 }
 
-.box-img-hydro-1{
+.box-img-hydro-1, .box-img-hydro-1-850{
     background: url(../img/hydro-1.png) center center no-repeat;
     background-size: cover;
 }
 
-.box-img-hydro-1:hover{
+.box-img-hydro-1:hover, .box-img-hydro-1-850:hover{
     background: url(../img/hydro-1-hover.png) center center no-repeat;
     background-size: cover;
 }
 
+.box-img-hydro-1-850{
+    display: none;
+}
 
-.box-img-klei-1{
+
+.box-img-klei-1, .box-img-klei-1-850{
     float: left;
     width: 60%;
     height: 450px;
 }
 
-.box-img-klei-1{
+.box-img-klei-1-850{
+    display: none;
+}
+
+.box-img-klei-1, .box-img-klei-1-850{
     background: url(../img/klei-1.png) center center no-repeat;
     background-size: cover;
 }
 
-.box-img-klei-1:hover{
+.box-img-klei-1:hover, .box-img-klei-1-850:hover{
     background: url(../img/klei-1-hover.png) center center no-repeat;
     background-size: cover;
 }
@@ -1322,7 +1343,16 @@ h1{
     color: #fff;
 }
 
+
+.tech-margin{
+    padding: 15px 15px;
+}
+.prod-nav-active{
+    background: #232323;
+    color: #fff;
+}
 .nav-active{
     background: #fff;
     color: #232323;
 }
+

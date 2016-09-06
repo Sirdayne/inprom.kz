@@ -69,6 +69,14 @@
         width: 50%;
         height: 500px;
     }
+    .box-img-dobavki-1, .box-img-dobavki-2, .box-img-dobavki-3, .box-img-remont-1, .box-img-remont-2, .box-img-remont-3, .box-img-remont-4, .box-img-remont-5, .box-img-remont-6 {
+        width: 50%;
+        height: 500px;
+    }
+    .box-img-promy-1, .box-img-hydro-1, .box-img-klei-1{
+        width: 50%;
+        height: 500px;
+    }
 }
 
 @media only screen and (max-width : 1200px) {
@@ -160,6 +168,52 @@
     .pol-fit-margin-top{
         margin-top: 50px;
     }
+    
+    .box-img-dobavki-1, .box-img-dobavki-2, .box-img-dobavki-3, .box-img-remont-1, .box-img-remont-2, .box-img-remont-3, .box-img-remont-4, .box-img-remont-5, .box-img-remont-6 {
+        width: 100%;
+        float: left;
+        height: 350px;
+    }
+    
+    .box-img-remont-1-850, .box-img-remont-3-850, .box-img-remont-5-850{
+        width: 100%;
+        float: left;
+        height: 350px;
+        display: block;
+    }
+    
+    .box-img-remont-1, .box-img-remont-3, .box-img-remont-5{
+        display: none;
+    }
+    
+    .box-img-promy-1, .box-img-hydro-1, .box-img-klei-1, .box-img-promy-1-850, .box-img-hydro-1-850, .box-img-klei-1-850{
+        width: 100%;
+        float: left;
+        height: 350px;
+    }
+    
+    .box-img-dobavki-1-850, .box-img-dobavki-3-850{
+        width: 100%;
+        float: left;
+        height: 350px;
+    }
+    
+    .box-img-dobavki-1-850, .box-img-dobavki-3-850{
+        display: block;
+    }
+    
+    .box-img-dobavki-1, .box-img-dobavki-3{
+        display: none;
+    }
+    
+    .box-img-promy-1, .box-img-hydro-1, .box-img-klei-1{
+        display: none;
+    }
+    
+    .box-img-promy-1-850, .box-img-hydro-1-850, .box-img-klei-1-850{
+        display: block;
+    }
+    
     .box-text, .box-img-reliability, .box-img-partnership, .box-img-benefit-850{
         width: 100%;
         height: 270px;
