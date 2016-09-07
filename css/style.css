@@ -962,92 +962,112 @@ h1{
 }
 .box-img-vodosnabjenie-1, .box-img-vodosnabjenie-1-850{
     background: url(../img/vodosnabjenie-1.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 .box-img-vodosnabjenie-2{
     background: url(../img/vodosnabjenie-2.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 .box-img-vodosnabjenie-3, .box-img-vodosnabjenie-3-850{
     background: url(../img/vodosnabjenie-3.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 
 .box-img-vodosnabjenie-1:hover, .box-img-vodosnabjenie-1-850:hover{
     background: url(../img/vodosnabjenie-1-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 .box-img-vodosnabjenie-2:hover{
     background: url(../img/vodosnabjenie-2-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 .box-img-vodosnabjenie-3:hover, .box-img-vodosnabjenie-3-850:hover{
     background: url(../img/vodosnabjenie-3-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 
 
 .box-img-teplosnabjenie-1, .box-img-teplosnabjenie-1-850{
     background: url(../img/teplosnabjenie-1.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 .box-img-teplosnabjenie-2{
     background: url(../img/teplosnabjenie-2.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 .box-img-teplosnabjenie-3, .box-img-teplosnabjenie-3-850{
     background: url(../img/teplosnabjenie-3.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 
 .box-img-teplosnabjenie-1:hover, .box-img-teplosnabjenie-1-850:hover{
     background: url(../img/teplosnabjenie-1-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 .box-img-teplosnabjenie-2:hover{
     background: url(../img/teplosnabjenie-2-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 .box-img-teplosnabjenie-3:hover, .box-img-teplosnabjenie-3-850:hover{
     background: url(../img/teplosnabjenie-3-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 
 
 .box-img-aggressive-1, .box-img-aggressive-1-850{
     background: url(../img/aggressive-1.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 .box-img-aggressive-2{
     background: url(../img/aggressive-2.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 
 .box-img-aggressive-1:hover, .box-img-aggressive-1-850:hover{
     background: url(../img/aggressive-1-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 .box-img-aggressive-2:hover{
     background: url(../img/aggressive-2-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 
 .box-img-gazosnabjenie-1, .box-img-gazosnabjenie-1-850{
     background: url(../img/gazosnabjenie-1.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 .box-img-gazosnabjenie-2{
     background: url(../img/gazosnabjenie-2.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 
 .box-img-gazosnabjenie-1:hover, .box-img-gazosnabjenie-1-850:hover{
     background: url(../img/gazosnabjenie-1-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 .box-img-gazosnabjenie-2:hover{
     background: url(../img/gazosnabjenie-2-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 
 
@@ -1061,28 +1081,34 @@ h1{
 
 .box-img-dobavki-1, .box-img-dobavki-1-850{
     background: url(../img/dobavki-1.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 .box-img-dobavki-2{
     background: url(../img/dobavki-2.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 .box-img-dobavki-3, .box-img-dobavki-3-850{
     background: url(../img/dobavki-3.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 
 .box-img-dobavki-1:hover, .box-img-dobavki-1-850:hover{
     background: url(../img/dobavki-1-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 .box-img-dobavki-2:hover{
     background: url(../img/dobavki-2-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 .box-img-dobavki-3:hover, .box-img-dobavki-3-850:hover{
     background: url(../img/dobavki-3-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 
 .box-img-dobavki-1-850, .box-img-dobavki-3-850{
@@ -1105,53 +1131,65 @@ h1{
 
 .box-img-remont-1, .box-img-remont-1-850{
     background: url(../img/remont-1.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 .box-img-remont-2{
     background: url(../img/remont-2.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 .box-img-remont-3, .box-img-remont-3-850{
     background: url(../img/remont-3.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 .box-img-remont-4{
     background: url(../img/remont-4.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 .box-img-remont-5, .box-img-remont-5-850{
     background: url(../img/remont-5.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 .box-img-remont-6{
     background: url(../img/remont-6.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 
 
 .box-img-remont-1:hover, .box-img-remont-1-850:hover{
     background: url(../img/remont-1-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 .box-img-remont-2:hover{
     background: url(../img/remont-2-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 .box-img-remont-3:hover, .box-img-remont-3-850:hover{
     background: url(../img/remont-3-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 .box-img-remont-4:hover{
     background: url(../img/remont-4-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 .box-img-remont-5:hover, .box-img-remont-5-850:hover{
     background: url(../img/remont-5-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 .box-img-remont-6:hover{
     background: url(../img/remont-6-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 
 .box-img-remont-1-850, .box-img-remont-3-850, .box-img-remont-5-850{
@@ -1166,12 +1204,14 @@ h1{
 
 .box-img-promy-1, .box-img-promy-1-850{
     background: url(../img/promy-1.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 
 .box-img-promy-1:hover, .box-img-promy-1-850:hover{
     background: url(../img/promy-1-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 
 .box-img-promy-1-850{
@@ -1186,12 +1226,14 @@ h1{
 
 .box-img-hydro-1, .box-img-hydro-1-850{
     background: url(../img/hydro-1.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 
 .box-img-hydro-1:hover, .box-img-hydro-1-850:hover{
     background: url(../img/hydro-1-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 
 .box-img-hydro-1-850{
@@ -1211,12 +1253,14 @@ h1{
 
 .box-img-klei-1, .box-img-klei-1-850{
     background: url(../img/klei-1.png) center center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    transition: .3s linear;
 }
 
 .box-img-klei-1:hover, .box-img-klei-1-850:hover{
     background: url(../img/klei-1-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 115% 115%;
+    transition: .3s linear;
 }
 
 
