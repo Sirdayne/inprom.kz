@@ -68,6 +68,24 @@ h1{
     background-size: cover;
     position: relative;
 }
+#header-art{
+    height: 100%;
+    background: url(../img/header-art.png) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#header-art-1{
+    height: 100%;
+    background: url(../img/header-art-1.png) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#header-art-2{
+    height: 100%;
+    background: url(../img/header-art-2.png) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
 #section1{
     height: 100%;
 }
@@ -288,6 +306,20 @@ h1{
     font-size: 36px;
 }
 
+
+.art-title {
+    float: left;
+    width: 100%;
+    margin-top: 15vh;
+    text-align: center;
+    color: #fff;
+}
+.art-title h1{
+    font-size: 65px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 .header-button{
     float: left;
     width: 100%;
@@ -489,6 +521,7 @@ h1{
     font-size: 16px;
     outline: none;
     margin-right: 50%;
+    margin-top: 14px;
     font-family:"Lucida Sans Unicode";
 }
 .call-button-margin{
@@ -542,6 +575,7 @@ h1{
     font-size: 16px;
     outline: none;
     margin-right: 50%;
+    margin-top: 14px;
     font-family:"Lucida Sans Unicode";
 }
 .offer-button-margin{
@@ -696,6 +730,144 @@ h1{
     text-align: left;
 }
 
+
+.section-articles{
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+.article{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    max-width: 1200px;
+}
+.art-img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    transition: .3s linear;
+}
+.art-img-hover:hover{
+    opacity: 0;
+}
+.art-img-1, .art-img-2{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 400px;
+    margin-top: 75px;
+    transition: .3s linear;
+}
+.art-img-1{
+    background: url(../img/art-1.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+.art-img-2{
+    background: url(../img/art-2.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+.art-img-1:hover, .art-img-2:hover{
+    background-size: 115% 115%;
+}
+.art-date{
+    position: absolute;
+    bottom: 45px;
+    left: 45px;
+    color: #fff;
+    width: 110px;
+    height: 40px;
+}
+.art-date-1{
+    float: left;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: right;
+    font-size: 34px;
+}
+.art-date-2, .art-date-3{
+    float: left;
+    width: 60px;
+    height: 20px;
+    font-size: 14px;
+    text-align: left;
+}
+.art-text{
+    float: left;
+    width: 100%;
+    margin-bottom: 75px;
+    background: #232323;
+    color: #fff;
+}
+.art-text h1{
+    float: left;
+    margin: 50px 50px 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+.art-text p{
+    float: left;
+    margin: 50px 50px 0;
+}
+.art-more{
+    float: left;
+    width: 100%;
+}
+.art-more .button-order{
+    float: right;
+    margin: 50px 25px 50px 25px;
+}
+
+
+.section-article{
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+.new-article{
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+}
+.in-row-1{
+    float: left;
+    width: 30%;
+}
+.in-row-2{
+    float: left;
+    width: 70%;
+}
+.in-date{
+    float: left;
+    padding: 70px;
+    width: 110px;
+    background: #fff;
+    color: #232323;
+}
+.in-title{
+    float: left;
+    width: 100%;
+    background: #232323;
+    color: #fff;
+}
+.in-title p{
+    margin: 70px;
+    font-size: 20px;
+}
+.in-text{
+    float: left;
+    width: 100%;
+    background: #fff;
+    color: #232323;
+}
+.in-text p{
+    margin: 70px;
+}
+
 .section-production{
     float: left;
     width: 100%;
@@ -712,6 +884,7 @@ h1{
     width: 100%;
     text-align: center;
 }
+
 .prod-navigation{
     display: inline-block;
     width: 1200px;
@@ -750,6 +923,46 @@ h1{
 .chem-nav:hover{
     background: #232323;
     color: #fff;
+}
+
+.chem-select{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.chem-option{
+    display: inline-block;
+}
+
+.chem-option select{
+    margin: 50px;
+    font-size: 18px;
+    color: #fff;
+    background: #232323;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.prod-select{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.prod-option{
+    display: inline-block;
+}
+
+.prod-option select{
+    margin: 50px;
+    font-size: 18px;
+    color: #fff;
+    background: #232323;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.prod-select, .chem-select{
+    display: none;
 }
 
 .js-vodosnabjenie, .js-teplosnabjenie{

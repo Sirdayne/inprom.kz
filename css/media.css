@@ -12,6 +12,9 @@
     .header-title, .about-title, .prod-title{
         margin-top: 55px;
     }
+    .art-title{
+        margin-top: 105px;
+    }
     .header-button{
         margin-top: 55px;
     }
@@ -21,8 +24,11 @@
     .offer-call{
         margin-top: 75px;
     }
-    #section-header, #header-about, #header-prod, #header-chem,  #section1, .section1-chemistry, .section1-systems{
+    #section-header, #header-about, #header-prod, #header-chem,  #section1, #header-art, #header-art-1, #header-art-2, .section1-chemistry, .section1-systems{
         height: 700px;
+    }
+    .header-navigation{
+        margin-top: 85px;
     }
 }
 
@@ -50,14 +56,18 @@
 }
 
 @media only screen and (max-width : 1500px) {
-    .header-title h1, .about-title h1, .prod-title h1{
+    .header-title h1, .about-title h1, .prod-title h1, .art-title h1{
         font-size: 45px;
     }
+    
 }
 
 @media only screen and (max-width : 1400px) {
     .chemistry-button{
         margin-top: 65px;
+    }
+    .new-article{
+        width: 100%;
     }
 }
 
@@ -84,6 +94,12 @@
 }
 
 @media only screen and (max-width : 1200px) {
+    .prod-row, .chem-row{
+        display: none;
+    }
+    .prod-select, .chem-select{
+        display: block;
+    }
     .prod-navigation{
         width: 600px;
     }
@@ -356,12 +372,19 @@
         width: 100%;
         margin: 0;
     }
-    
+    .footer-nav p{
+        margin: 5px;
+        font-size: 14px;
+    }
     .activity-box-left h1, .activity-box-right h1, .activity-box-partners h1{
         font-size: 17px;
     }
     .activity-box-left p, .activity-box-right p, .activity-box-partners p{
         font-size: 14px;
+    }
+    .prod-option select, .chem-option select{
+        width: 400px;
+        font-size: 16px;
     }
 }
 
@@ -372,10 +395,13 @@
     .prod-title p{
         font-size: 14px;
     }
-    .header-title h1,  .about-title h1, .prod-title h1{
+    .header-title h1,  .about-title h1, .prod-title h1, .art-title h1{
         font-size: 20px;
     }
     .header-title, .about-title, .prod-title{
+        margin-top: 100px;
+    }
+    .art-title{
         margin-top: 100px;
     }
     .header-button{
@@ -452,6 +478,19 @@
     .chem-navigation{
         width: 240px;
     }
+    .in-row-1, .in-row-2{
+        width: 100%;
+    }
+    .in-date{
+        padding: 50px;
+    }
+    .in-title p{
+        margin: 50px;
+    }
+    .in-text p{
+        margin: 50px;
+    }
+
 }
 
 @media only screen and (max-width : 650px) { 
@@ -460,6 +499,9 @@
     }
     .prod-row-text{
         height: 250px;
+    }
+    .article{
+        width: 90%;
     }
 }
 
@@ -498,14 +540,10 @@
     .pol-fit-margin-top{
         margin-top: 50px;
     }
-}
-
-@media only screen and (max-width : 480px) { 
-    /*
-    .box-prod{
-        height: 400px;
+    .prod-option select, .chem-option select{
+        width: 200px;
+        font-size: 14px;
     }
-    */
 }
 
 @media only screen and (max-width : 450px) { 
@@ -547,7 +585,26 @@
         height: 450px;
     }
     */
+    .in-date{
+        padding: 20px;
+    }
+    .in-title p{
+        margin: 20px;
+    }
+    .in-text p{
+        margin: 20px;
+    }
 }
+
+
+@media only screen and (max-width : 480px) { 
+    .art-more .button-order{
+        float: left;
+        margin: 50px;
+        padding: 15px;
+    }    
+}
+
 
 @media only screen and (max-width : 350px) {
     .causes-bottom-align, .causes-top-align{

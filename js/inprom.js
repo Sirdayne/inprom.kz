@@ -65,6 +65,33 @@ $(document).ready(function(){
         
     });
     
+    
+    $('#prod-select').change(function(){
+      if($(this).val() == 'js-vodosnabjenie'){ 
+        $('.js-section').fadeOut('fast');
+        $('.section-vodosnabjenie').fadeIn('fast');  
+      }
+    });
+    $('#prod-select').change(function(){
+      if($(this).val() == 'js-teplosnabjenie'){ 
+        $('.js-section').fadeOut('fast');
+        $('.section-teplosnabjenie').fadeIn('fast');  
+      }
+    });
+    $('#prod-select').change(function(){
+      if($(this).val() == 'js-aggressive'){ 
+        $('.js-section').fadeOut('fast');
+        $('.section-aggressive').fadeIn('fast');  
+      }
+    });
+    $('#prod-select').change(function(){
+      if($(this).val() == 'js-gazosnabjenie'){ 
+        $('.js-section').fadeOut('fast');
+        $('.section-gazosnabjenie').fadeIn('fast');  
+      }
+    });
+    
+    
     $('.js-dobavki').click(function() {
         $('.chem-nav').removeClass('prod-nav-active');
         $(this).addClass('prod-nav-active');
@@ -105,6 +132,36 @@ $(document).ready(function(){
         
     });
     
+    $('#chem-select').change(function(){
+      if($(this).val() == 'js-dobavki'){ 
+        $('.js-section').fadeOut('fast');
+        $('.section-dobavki').fadeIn('fast');  
+      }
+    });
+    $('#chem-select').change(function(){
+      if($(this).val() == 'js-remont'){ 
+        $('.js-section').fadeOut('fast');
+        $('.section-remont').fadeIn('fast');  
+      }
+    });
+    $('#chem-select').change(function(){
+      if($(this).val() == 'js-promy'){ 
+        $('.js-section').fadeOut('fast');
+        $('.section-promy').fadeIn('fast');  
+      }
+    });
+    $('#chem-select').change(function(){
+      if($(this).val() == 'js-hydro'){ 
+        $('.js-section').fadeOut('fast');
+        $('.section-hydro').fadeIn('fast');  
+      }
+    });
+    $('#chem-select').change(function(){
+      if($(this).val() == 'js-klei'){ 
+        $('.js-section').fadeOut('fast');
+        $('.section-klei').fadeIn('fast');  
+      }
+    });  
     
 	var $window = $(window);		//Window object
 	
