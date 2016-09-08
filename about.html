@@ -27,24 +27,7 @@
     
 </head>
 <body>
-    <div class="modal-back"></div>
     
-    <div class="offer-call">
-            <div class="offer-modal">
-                <div class="offer-modal-part">
-                    <input type="text" placeholder="Ваше имя">
-                    <input type="text" placeholder="Компания">
-                    <input type="text" id="client-tel-for-consult" placeholder="Телефон">
-                    <input type="text" placeholder="Интересующая продукция">
-                </div>
-                <div class="offer-modal-part">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
-                </div>
-            </div>
-            <div class="offer-button-margin">
-                <button class="offer-button call-button-margin">ОТПРАВИТЬ</button>
-            </div>
-    </div>
 
     <div class="section" id="header-about">
         
@@ -193,20 +176,30 @@
                 <h1>ТЕХНИЧЕСКОГО СПЕЦИАЛИСТА</h1>
             </div>
             
-            <div class="offer-form">
-                <div class="offer-form-part">
-                    <input type="text" placeholder="Ваше имя">
-                    <input type="text" placeholder="Компания">
-                    <input type="text" id="client-tel-for-consult-2" placeholder="Телефон">
-                    <input type="text" placeholder="Интересующая продукция">
+            <form method="post" action="">
+                <div class="offer-form">
+                    <div class="offer-form-part">
+
+                            <!-- Hidden Required Fields -->
+                            <input type="hidden" name="project_name" value="inprom.kz">
+                            <input type="hidden" name="admin_email" value="tester@ginnova.kz">
+                            <input type="hidden" name="form_subject" value="Заявка">
+                             <!-- END Hidden Required Fields -->
+
+
+                       <input type="text" name="Имя" placeholder="Ваше имя" required>
+                        <input type="text" name="Компания" placeholder="Компания">
+                        <input type="text" name="Телефон" id="client-tel-for-consult-2" placeholder="Телефон" required>
+                        <input type="text" name="Продукция" placeholder="Интересующая продукция">
+                    </div>
+                    <div class="offer-form-part">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                    </div>
                 </div>
-                <div class="offer-form-part">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                <div class="offer-button-margin">
+                    <button class="offer-button">ОТПРАВИТЬ</button>
                 </div>
-            </div>
-            <div class="offer-button-margin">
-                <button class="offer-button">ОТПРАВИТЬ</button>
-            </div>
+            </form>
         </div>
         
     </div>
@@ -311,6 +304,8 @@
         jQuery(function($){$("#client-tel-for-consult-2").mask("+7(999)999-99-99");});
 	</script>
     
+    
+    <script src="js/script.js"></script>
     <!--
     <script>
         $(window).load(function() {
