@@ -844,7 +844,7 @@ h1{
 .in-date{
     float: left;
     padding: 70px;
-    width: 110px;
+    width: 115px;
     background: #fff;
     color: #232323;
 }
@@ -856,7 +856,7 @@ h1{
 }
 .in-title p{
     margin: 70px;
-    font-size: 20px;
+    font-size: 26px;
 }
 .in-text{
     float: left;
@@ -866,6 +866,18 @@ h1{
 }
 .in-text p{
     margin: 70px;
+    font-size: 18px;
+}
+
+.in-date .art-date-1{
+    font-size: 40px;
+}
+.in-date .art-date-2{
+    margin-top: 5px;
+}
+.in-date .art-date-2, .in-date .art-date-3{
+    font-size: 16px;
+    margin-left: 5px;
 }
 
 .section-production{

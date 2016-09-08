@@ -69,6 +69,9 @@
     .new-article{
         width: 100%;
     }
+    .section-activity{
+        margin-top: -75px;
+    }
 }
 
 @media only screen and (max-width : 1320px) {
@@ -310,6 +313,9 @@
         font-size: 13px;
         margin: 2px 5px 35px 5px;
     }
+    .in-text p{
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width : 800px) {
@@ -464,11 +470,6 @@
     .partners-logos img{
         width: 100%;
     }
-    .section-activity{
-        width: 90%;
-        margin-left: 5%;
-        margin-top: -50px;
-    }
     .activity-start{
         left: 0;
     }
@@ -481,14 +482,33 @@
     .in-row-1, .in-row-2{
         width: 100%;
     }
+    .in-row-1{
+        background: #232323;
+        color: #fff;
+    }
     .in-date{
-        padding: 50px;
+        padding: 25px 50px 25px;
+        background: #232323;
+        color: #fff;
+        width: 500px;
+        height: 40px;
+    }
+    .in-date .art-date-1, .in-date .art-date-2, .in-date .art-date-3{
+        height: 40px;
+        margin: 0 5px 0 0;
+        width: auto;
+        font-size: 18px;
+        text-align: left;
     }
     .in-title p{
-        margin: 50px;
+        margin: 25px 50px;
     }
     .in-text p{
-        margin: 50px;
+        margin: 25px 50px;
+    }
+    .section-activity{
+        width: 90%;
+        margin-left: 5%;
     }
 
 }
