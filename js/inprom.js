@@ -14,6 +14,7 @@ $(document).ready(function(){
     $('.modal-back').click(function() {
 
         $('.offer-call').fadeOut('fast');
+        $('.thx').fadeOut('fast');
         $('.modal-back').fadeOut('fast'); 
         
     });

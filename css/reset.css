@@ -82,7 +82,8 @@ body {
 	min-width: 278px;
 	position: relative;
 	line-height: 1.4;
-	font-family: "Lucida Sans Unicode";
+    
+	font-family: "LucidaSansUnicode";
 	overflow-x: hidden;
 }
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
@@ -113,11 +114,14 @@ h2 {
 	margin: 40px 0;
 	line-height:1;
 	text-align: center;
-	font-family:"Lucida Sans Unicode";
+    
+	font-family:"LucidaSansUnicode";
 }
 h3 {
     font-size: 20px;
-    font-family:"Lucida Sans Unicode";
+    
+    font-family:"LucidaSansUnicode";
+    
     line-height: 1;
     margin:20px 0;
     color: #383838;

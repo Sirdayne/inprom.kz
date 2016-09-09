@@ -11,8 +11,10 @@ $(document).ready(function() {
 
 		}).done(function() {
             
-            //$(".modal-1").fadeOut("fast");
-            alert('С вами свяжется наш специалист');
+            
+            $('.offer-call').fadeOut('fast');
+            $('.modal-back').fadeIn('fast');
+            $('.thx').fadeIn('fast');
             
 			setTimeout(function() {
 				// Done Functions

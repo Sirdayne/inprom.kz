@@ -15,6 +15,9 @@
     .art-title{
         margin-top: 105px;
     }
+    .con-title{
+        margin-top: 55px;
+    }
     .header-button{
         margin-top: 55px;
     }
@@ -24,12 +27,13 @@
     .offer-call{
         margin-top: 75px;
     }
-    #section-header, #header-about, #header-prod, #header-chem,  #section1, #header-art, #header-art-1, #header-art-2, .section1-chemistry, .section1-systems{
+    #section-header, #header-about, #header-prod, #header-chem,  #section1, #header-art, #header-art-1, #header-art-2, #header-contacts, .section1-chemistry, .section1-systems{
         height: 700px;
     }
     .header-navigation{
         margin-top: 85px;
     }
+	
 }
 
 /* mobile WIDTH fixes */
@@ -56,8 +60,13 @@
 }
 
 @media only screen and (max-width : 1500px) {
-    .header-title h1, .about-title h1, .prod-title h1, .art-title h1{
+    .header-title h1, .about-title h1, .prod-title h1, .art-title h1, .con-title h1{
         font-size: 45px;
+    }
+    .contact-form .offer-form-part textarea{
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 150px;
     }
     
 }
@@ -93,6 +102,14 @@
     .box-img-promy-1, .box-img-hydro-1, .box-img-klei-1{
         width: 50%;
         height: 500px;
+    }
+    .contact-form .offer-form-part textarea{
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 100px;
+    }
+    .contact-form .offer-form-part input{
+        margin: 10px;
     }
 }
 
@@ -175,6 +192,13 @@
     }
     .prod-row-adv ul{
         margin: 15px;
+    }
+    .contact-form{
+        position: static;
+        width: 100%;
+    }
+    .contact-form .offer-form-part input, .contact-form .offer-form-part textarea{
+        width: 90%;
     }
 }
 
@@ -319,6 +343,9 @@
 }
 
 @media only screen and (max-width : 800px) {
+    .con-row-1, .con-row{
+        font-size: 12px;
+    }
     .header-prod, .footer-prod{
         display: none;
     }
@@ -392,6 +419,7 @@
         width: 400px;
         font-size: 16px;
     }
+    
 }
 
 @media only screen and (max-width : 750px) {
@@ -401,7 +429,7 @@
     .prod-title p{
         font-size: 14px;
     }
-    .header-title h1,  .about-title h1, .prod-title h1, .art-title h1{
+    .header-title h1,  .about-title h1, .prod-title h1, .art-title h1, .con-title h1{
         font-size: 20px;
     }
     .header-title, .about-title, .prod-title{
@@ -409,6 +437,9 @@
     }
     .art-title{
         margin-top: 100px;
+    }
+    .con-title{
+        margin-top: 50px;
     }
     .header-button{
         margin-top: 55px;
@@ -523,6 +554,10 @@
     .article{
         width: 90%;
     }
+	.thx{
+		left: 10%;
+		width: 80%;
+	}
 }
 
 @media only screen and (max-width : 550px) { 
