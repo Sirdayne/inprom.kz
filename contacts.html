@@ -150,7 +150,11 @@
             </form>
         </div>
             
+        <!--
         <a href="https://yandex.ru/maps/?um=constructor:QdZdkKJx1aJJ5-hfEsRNKtjZmv6KNQcw&amp;source=constructorStatic" target="_blank"><img src="./img/map.png" alt="" style="border: 0;" /></a>
+        -->
+           
+        <div id="map" style="position: absolute; width: 90%; height: 800px; z-index: 9; top: 25px; left: 5%;"></div>
             
     </div>    
       
@@ -266,6 +270,35 @@
         });
     </script>
     -->
+    
+<script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+<script type="text/javascript">
+  // Как только будет загружен API и готов DOM, выполняем инициализацию
+        ymaps.ready(init);
+ 
+        function init () {
+            // Создание экземпляра карты и его привязка к контейнеру с
+            // заданным id ("map")
+            var myMap = new ymaps.Map('map', {
+                    // При инициализации карты, обязательно нужно указать
+                    // ее центр и коэффициент масштабирования
+                    center: [49.961163, 82.640559], 
+                    zoom: 18
+                });
+ 
+			// Создание метки 
+			var myPlacemark = new ymaps.Placemark(
+			// Координаты метки
+			[49.961163, 82.639559]        
+			);
+ 
+		// Добавление метки на карту
+		myMap.geoObjects.add(myPlacemark);
+ 
+ 
+        }
+</script>
+
 
 </body>
 </html>

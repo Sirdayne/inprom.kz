@@ -194,8 +194,8 @@
         margin: 15px;
     }
     .contact-form{
-        position: static;
-        width: 100%;
+        width: 80%;
+        margin-left: 10%;
     }
     .contact-form .offer-form-part input, .contact-form .offer-form-part textarea{
         width: 90%;
