@@ -187,7 +187,7 @@
         width: 100%;
     }
     .con-row-1, .con-row{
-        margin-top: 0;
+        margin-top: 10;
         font-size: 12px;
     }
 
@@ -369,7 +369,7 @@
 
 @media only screen and (max-width : 800px) {
     .con-row-1, .con-row{
-        margin-top: 25px;
+        margin-top: 10px;
     }
     .header-prod, .footer-prod{
         display: none;
