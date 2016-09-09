@@ -372,6 +372,9 @@ h1{
     margin: 25px 10px;
 }
 
+.mobile-map{
+    display: none;
+}
 .header-button{
     float: left;
     width: 100%;
@@ -592,9 +595,8 @@ h1{
 }
 .offer-form{
     float: left;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 55px;
+    width: 90%;
+    margin: 25px 5% 25px 5%;
 }
 .offer-form-part{
     float: left;
@@ -795,8 +797,8 @@ h1{
 }
 .contact-form{
     position: absolute;
-    width: 400px;
-    top: 50px;
+    width: 500px;
+    top: 100px;
     right: 10%;
     background: #fff;
     z-index: 11;
@@ -810,7 +812,6 @@ h1{
 .contact-form .offer-form-part textarea{
     margin-left: 20px;
     margin-top: 20px;
-    height: 250px;
 }
 .contact-form .offer-button{
     margin-bottom: 25px;
@@ -1727,4 +1728,12 @@ h1{
 .thx p{
     margin: 25px;
     font-size: 18px;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 90%;
+    max-width: 90%;
+}
+.contact-form textarea{
+    height: 150px;
 }

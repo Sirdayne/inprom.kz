@@ -24,6 +24,9 @@
 }
 
 @media only screen and (max-height : 700px) {
+    .con-row-1, .con-title{
+        margin-top: 10px;
+    }
     .offer-call{
         margin-top: 75px;
     }
@@ -166,6 +169,28 @@
 }
 
 @media only screen and (max-width : 1000px) {
+    .section-contacts{
+        height: auto;
+    }
+    .contact-form{
+        position: static;
+    }
+    .mobile-map{
+        display: block;
+    }
+    #map{
+        display: none;
+    }
+    .con-left, .con-right{
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    .con-row-1, .con-row{
+        margin-top: 0;
+        font-size: 12px;
+    }
+
     .foot-row, .foot-ginnova{
         margin: 5px 0 5px 0;
         width: 100%;
@@ -344,7 +369,7 @@
 
 @media only screen and (max-width : 800px) {
     .con-row-1, .con-row{
-        font-size: 12px;
+        margin-top: 25px;
     }
     .header-prod, .footer-prod{
         display: none;
