@@ -204,6 +204,9 @@
         margin-top: 150px;
         font-size: 26px;
     }
+    .section1-chemistry p, .section1-systems p{
+        margin: 55px auto 100px;
+    }
     .prod-row-img{
         height: 200px;
     }
