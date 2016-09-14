@@ -188,3 +188,21 @@ $(document).ready(function(){
             });
 	   } 
 });
+
+$(window).load(function() {
+    
+    
+    //
+    $('.loader_inner').addClass('animated flipOutY');
+    $('.loader').css('animation', 'loader 1s linear');
+    $("html, body").animate({ scrollTop: 0 }, 1200);
+    
+    setTimeout(
+        function() 
+            {
+                $(".loader-right").addClass('animated slideOutRight');
+                $(".loader-left").addClass('animated slideOutLeft'); 
+            }, 800);
+            
+});
+

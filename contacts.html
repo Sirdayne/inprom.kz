@@ -8,10 +8,10 @@
 
 	<meta charset="utf-8">
 
-	<title>INPROM - Продукция</title>
+	<title>INPROM - Контакты</title>
 	<meta name="description" content="">
 	
-	<!--<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">-->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -55,7 +55,7 @@
         </form>
     </div>
 
-   <div class="thx">
+    <div class="thx">
         <p>БЛАГОДАРИМ! С ВАМИ <br> СВЯЖЕТСЯ НАШ СПЕЦИАЛИСТ</p>
     </div>
     
@@ -148,7 +148,6 @@
         
     </div>    
       
-    
     <div class="section" id="section-footer">    
         
         <footer class="footer-production">
@@ -214,6 +213,13 @@
         </footer>
     </div>
     
+    <div class="loader-right"></div>
+    <div class="loader-left"></div>
+    
+    <div class="loader_inner"></div>
+    
+    <div class="loader"></div>
+    
 <script src="js/jquery.min.js"></script>
 	
 <!--	
@@ -250,17 +256,7 @@
 	</script>
    
    <script src="js/script.js"></script>
-    
-    <!--
-    <script>
-        $(window).load(function() {
-
-            $(".loading-box").fadeOut();
-
-        });
-    </script>
-    -->
-    
+   
 <script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
 <script type="text/javascript">
   // Как только будет загружен API и готов DOM, выполняем инициализацию
@@ -275,20 +271,15 @@
                     center: [49.961163, 82.640559], 
                     zoom: 17
                 });
- 
 			// Создание метки 
 			var myPlacemark = new ymaps.Placemark(
 			// Координаты метки
 			[49.961163, 82.639559]        
 			);
- 
 		// Добавление метки на карту
 		myMap.geoObjects.add(myPlacemark);
- 
- 
         }
 </script>
-
 
 </body>
 </html>

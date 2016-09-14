@@ -8,10 +8,10 @@
 
 	<meta charset="utf-8">
 
-	<title>INPROM - Продукция</title>
+	<title>INPROM - Статьи</title>
 	<meta name="description" content="">
 	
-	<!--<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">-->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -39,8 +39,7 @@
                     <input type="hidden" name="admin_email" value="tester@ginnova.kz">
                     <input type="hidden" name="form_subject" value="Заявка">
                         <!-- END Hidden Required Fields -->
-                   
-                   
+        
                     <input type="text" name="Имя" placeholder="Ваше имя" required>
                     <input type="text" name="Компания" placeholder="Компания">
                     <input type="text" name="Телефон" id="client-tel-for-consult" placeholder="Телефон" required>
@@ -118,8 +117,6 @@
         </div>
     </div>    
       
-    
-    
     <div class="section" id="section-footer">    
         
         <footer class="footer-production">
@@ -185,6 +182,13 @@
         </footer>
     </div>
     
+    <div class="loader-right"></div>
+    <div class="loader-left"></div>
+    
+    <div class="loader_inner"></div>
+    
+    <div class="loader"></div>
+    
 <script src="js/jquery.min.js"></script>
 	
 <!--	
@@ -219,16 +223,6 @@
 		jQuery(function($){$("#client-tel-for-consult").mask("+7(999)999-99-99");});
         jQuery(function($){$("#client-tel-for-consult-2").mask("+7(999)999-99-99");});
 	</script>
-    
-    <!--
-    <script>
-        $(window).load(function() {
-
-            $(".loading-box").fadeOut();
-
-        });
-    </script>
-    -->
 
 </body>
 </html>

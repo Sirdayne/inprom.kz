@@ -15,6 +15,16 @@
     100% {background-position: right;}
 }
 
+@-webkit-keyframes loader {
+    0% {border: 1000px solid #232323; height: 0px; width: 0%;}
+    100% {border: 1px solid #232323; height: 10000px; width: 100%;}
+}
+
+@keyframes loader {
+    0% {border: 1000px solid #232323; height: 0px; width: 0%;}
+    100% {border: 1px solid #232323; height: 10000px; width: 100%;}
+}
+
 html{
     height: 100%;
     width: 100%;
@@ -407,6 +417,7 @@ h1{
     text-align: center;
     color:  #fff;
     transition: .4s linear;
+    position: relative;
 }
 .section1-chemistry h1, .section1-systems h1{
     margin-top: 40vh;
@@ -464,22 +475,21 @@ h1{
     text-align: center;
     color: #fff;
     transition: .4s linear;
+    position: relative;
 }
 .causes-bottom-1{
-    background: url(../img/section-drive.png) center center no-repeat;
-    background-size: cover;
+    background: url(../img/section-drive-hover.png) center center no-repeat;
+    background-size: 100% 100%;
 }
 .causes-bottom-1:hover{
-    background: url(../img/section-drive-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 105% 105%;
 }
 .causes-bottom-2{
-    background: url(../img/section-guarantee.png) center center no-repeat;
-    background-size: cover;
+    background: url(../img/section-guarantee-hover.png) center center no-repeat;
+    background-size: 100% 100%;
 }
 .causes-bottom-2:hover{
-    background: url(../img/section-guarantee-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 105% 105%;
 }
 .causes-bottom-1 h1, .causes-bottom-2 h1{
     margin-top: 115px;
@@ -502,22 +512,21 @@ h1{
     text-align: center;
     color: #fff;
     transition: .4s linear;
+    position: relative;
 }
 .causes-top-1{
-    background: url(../img/section-client.png) center center no-repeat;
-    background-size: cover;
+    background: url(../img/section-client-hover.png) center center no-repeat;
+    background-size: 100% 100%;
 }
 .causes-top-1:hover{
-    background: url(../img/section-client-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 105% 105%;
 }
 .causes-top-2{
-    background: url(../img/section-visibility.png) center center no-repeat;
-    background-size: cover;
+    background: url(../img/section-visibility-hover.png) center center no-repeat;
+    background-size: 100% 100%;
 }
 .causes-top-2:hover{
-    background: url(../img/section-visibility-hover.png) center center no-repeat;
-    background-size: cover;
+    background-size: 105% 105%;
 }
 .causes-top-1 h1, .causes-top-2 h1{
     margin-top: 115px;
@@ -1223,8 +1232,32 @@ h1{
     width: 60%;
     height: 300px;
 }
+
+.box-img-hover{
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    background: rgba(0,0,0,0.4);
+    transition: .4s linear;
+}
+.box-img-hover:hover{
+    background: rgba(0,0,0,0);
+}
+
+.causes-img-hover{
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    background: rgba(0,0,0,0.3);
+    transition: .4s linear;
+}
+.causes-img-hover:hover{
+    background: rgba(0,0,0,0);
+}
+
 .box-img-vodosnabjenie-1, .box-img-vodosnabjenie-2, .box-img-vodosnabjenie-3, .box-img-vodosnabjenie-1-850, .box-img-vodosnabjenie-3-850{
     float: left;
+    position: relative;
     width: 60%;
     height: 450px;
 }
@@ -1234,6 +1267,7 @@ h1{
 
 .box-img-teplosnabjenie-1, .box-img-teplosnabjenie-2, .box-img-teplosnabjenie-3{
     float: left;
+    position: relative;
     width: 60%;
     height: 450px;
 }
@@ -1244,6 +1278,7 @@ h1{
 
 .box-img-aggressive-1, .box-img-aggressive-2, .box-img-aggressive-1-850{
     float: left;
+    position: relative;
     width: 60%;
     height: 450px;
 }
@@ -1254,6 +1289,7 @@ h1{
 
 .box-img-gazosnabjenie-1, .box-img-gazosnabjenie-2, .box-img-gazosnabjenie-1-850{
     float: left;
+    position: relative;
     width: 60%;
     height: 450px;
 }
@@ -1291,19 +1327,15 @@ h1{
     background-size: 100% 100%;
     transition: .5s linear;
 }
-
 .box-img-vodosnabjenie-1:hover, .box-img-vodosnabjenie-1-850:hover{
-    background: url(../img/vodosnabjenie-1-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
 .box-img-vodosnabjenie-2:hover{
-    background: url(../img/vodosnabjenie-2-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
 .box-img-vodosnabjenie-3:hover, .box-img-vodosnabjenie-3-850:hover{
-    background: url(../img/vodosnabjenie-3-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
@@ -1326,17 +1358,14 @@ h1{
 }
 
 .box-img-teplosnabjenie-1:hover, .box-img-teplosnabjenie-1-850:hover{
-    background: url(../img/teplosnabjenie-1-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
 .box-img-teplosnabjenie-2:hover{
-    background: url(../img/teplosnabjenie-2-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
 .box-img-teplosnabjenie-3:hover, .box-img-teplosnabjenie-3-850:hover{
-    background: url(../img/teplosnabjenie-3-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
@@ -1354,12 +1383,10 @@ h1{
 }
 
 .box-img-aggressive-1:hover, .box-img-aggressive-1-850:hover{
-    background: url(../img/aggressive-1-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
 .box-img-aggressive-2:hover{
-    background: url(../img/aggressive-2-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
@@ -1376,12 +1403,10 @@ h1{
 }
 
 .box-img-gazosnabjenie-1:hover, .box-img-gazosnabjenie-1-850:hover{
-    background: url(../img/gazosnabjenie-1-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
 .box-img-gazosnabjenie-2:hover{
-    background: url(../img/gazosnabjenie-2-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
@@ -1391,6 +1416,7 @@ h1{
 
 .box-img-dobavki-1, .box-img-dobavki-2, .box-img-dobavki-3, .box-img-dobavki-1-850, .box-img-dobavki-3-850{
     float: left;
+    position: relative;
     width: 60%;
     height: 450px;
 }
@@ -1412,17 +1438,14 @@ h1{
 }
 
 .box-img-dobavki-1:hover, .box-img-dobavki-1-850:hover{
-    background: url(../img/dobavki-1-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
 .box-img-dobavki-2:hover{
-    background: url(../img/dobavki-2-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
 .box-img-dobavki-3:hover, .box-img-dobavki-3-850:hover{
-    background: url(../img/dobavki-3-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
@@ -1435,12 +1458,14 @@ h1{
 
 .box-img-remont-1, .box-img-remont-2, .box-img-remont-3, .box-img-remont-4, .box-img-remont-5, .box-img-remont-6{
     float: left;
+    position: relative;
     width: 60%;
     height: 450px;
 }
 
 .box-img-remont-1-850, .box-img-remont-3-850, .box-img-remont-5-850{
     float: left;
+    position: relative;
     width: 60%;
     height: 450px;
 }
@@ -1478,32 +1503,26 @@ h1{
 
 
 .box-img-remont-1:hover, .box-img-remont-1-850:hover{
-    background: url(../img/remont-1-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
 .box-img-remont-2:hover{
-    background: url(../img/remont-2-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
 .box-img-remont-3:hover, .box-img-remont-3-850:hover{
-    background: url(../img/remont-3-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
 .box-img-remont-4:hover{
-    background: url(../img/remont-4-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
 .box-img-remont-5:hover, .box-img-remont-5-850:hover{
-    background: url(../img/remont-5-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
 .box-img-remont-6:hover{
-    background: url(../img/remont-6-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
@@ -1514,6 +1533,7 @@ h1{
 
 .box-img-promy-1, .box-img-promy-1-850{
     float: left;
+    position: relative;
     width: 60%;
     height: 450px;
 }
@@ -1525,7 +1545,6 @@ h1{
 }
 
 .box-img-promy-1:hover, .box-img-promy-1-850:hover{
-    background: url(../img/promy-1-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
@@ -1536,6 +1555,7 @@ h1{
 
 .box-img-hydro-1, .box-img-hydro-1-850{
     float: left;
+    position: relative;
     width: 60%;
     height: 450px;
 }
@@ -1547,7 +1567,6 @@ h1{
 }
 
 .box-img-hydro-1:hover, .box-img-hydro-1-850:hover{
-    background: url(../img/hydro-1-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
@@ -1559,6 +1578,7 @@ h1{
 
 .box-img-klei-1, .box-img-klei-1-850{
     float: left;
+    position: relative;
     width: 60%;
     height: 450px;
 }
@@ -1574,7 +1594,6 @@ h1{
 }
 
 .box-img-klei-1:hover, .box-img-klei-1-850:hover{
-    background: url(../img/klei-1-hover.png) center center no-repeat;
     background-size: 115% 115%;
     transition: .5s linear;
 }
@@ -1740,4 +1759,52 @@ h1{
 }
 .contact-form textarea{
     height: 150px;
+}
+
+.loader-right, .loader-left{
+    background: none repeat scroll 0 0 #232323;
+}
+
+.loader-right {
+	height: 100%;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 50%;
+	z-index: 50;
+}
+
+.loader-left {
+	top: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	width: 50%;
+	z-index: 50;
+}
+
+.loader_inner {
+	background: #232323 url("../img/logo.png");
+	background-size: cover;
+	height: 84px;
+	width: 139px;
+	margin-top: -64px;
+	margin-left: -64px;
+	left: 50%;
+	top: 50%;
+	position: fixed;
+    z-index: 51;
+
+}
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 0px;
+    width: 0%;
+    
+    border: 0px solid #232323;
+    background: rgba(0,0,0,0);
+    background-size:cover;
 }
