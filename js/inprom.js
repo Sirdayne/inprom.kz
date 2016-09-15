@@ -184,7 +184,6 @@ $(document).ready(function(){
                         autoKill: true,
                         overwrite: 5							
                     });
-
             });
 	   } 
 });
