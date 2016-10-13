@@ -581,8 +581,8 @@ h1{
 .offer-modal-part textarea{
     float: left;
     color: #766f6f;
-    height: 250px;
-    max-height: 250px;
+    height: 320px;
+    max-height: 320px;
     max-width: 80%;
     width: 80%;
     font-size: 16px;
@@ -635,8 +635,8 @@ h1{
 .offer-form-part textarea{
     float: left;
     color: #766f6f;
-    height: 250px;
-    max-height: 250px;
+    height: 320px;
+    max-height: 320px;
     max-width: 80%;
     width: 80%;
     font-size: 16px;
@@ -1758,7 +1758,7 @@ h1{
     max-width: 90%;
 }
 .contact-form textarea{
-    height: 150px;
+    height: 120px;
 }
 
 .loader-right, .loader-left{
@@ -1807,4 +1807,9 @@ h1{
     border: 0px solid #232323;
     background: rgba(0,0,0,0);
     background-size:cover;
+    z-index: 50;
+}
+
+.yandex-informer{
+    display: none;
 }

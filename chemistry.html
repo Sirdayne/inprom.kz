@@ -25,6 +25,17 @@
     <script src="js/TweenMax.min.js"></script>
 	<script src="js/ScrollToPlugin.min.js"></script>
     
+    <!-- Google Analytics -->   
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-84483247-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- END Google Analytics -->   
 </head>
 <body>
 
@@ -37,7 +48,7 @@
                 <div class="offer-modal-part">
                     <!-- Hidden Required Fields -->
                     <input type="hidden" name="project_name" value="inprom.kz">
-                    <input type="hidden" name="admin_email" value="tester@ginnova.kz">
+                    <input type="hidden" name="admin_email" value="info@inprom.kz">
                     <input type="hidden" name="form_subject" value="Заявка">
                         <!-- END Hidden Required Fields -->
                    
@@ -45,10 +56,11 @@
                     <input type="text" name="Имя" placeholder="Ваше имя" required>
                     <input type="text" name="Компания" placeholder="Компания">
                     <input type="text" name="Телефон" id="client-tel-for-consult" placeholder="Телефон" required>
+                    <input type="text" name="E-Mail" placeholder="E-Mail" required>
                     <input type="text" name="Продукция" placeholder="Интересующая продукция">
                 </div>
                 <div class="offer-modal-part">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                    <textarea name="Сообщение" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
                 </div>
             </div>
             <div class="offer-button-margin">
@@ -63,7 +75,7 @@
     <div class="section" id="header-chem">
         
         <div class="header-logo">
-            <a href="index.html"><img src="img/logo.png" alt="Inprom Logo"  class="wow fadeInDown"></a>
+            <a href="index.html"><img src="img/logo.png" alt="Inprom Logo"  class="wow fadeInDown" data-wow-delay=".9s"></a>
             <div class="header-address">
                 <p>+7 (7232) 40 17 40</p>
                 <p>г. Усть-Каменогорск</p>
@@ -76,7 +88,7 @@
             </div>
         </div>
         <div class="header-navigation">
-            <div class="header-navigation-panel wow fadeInRight" data-wow-delay=".3s">
+            <div class="header-navigation-panel wow fadeInRight" data-wow-delay="1.2s">
                 <a href="index.html"><div class="header-nav"><p>ГЛАВНАЯ</p></div></a>
                 <div class="header-nav header-prod"><p>ПРОДУКЦИЯ</p>
                 <div class="header-prod-navigation">
@@ -92,8 +104,8 @@
             </div>
         </div>
         <div class="prod-title">
-            <h1 class="wow fadeInUp" data-wow-delay=".6s">СТРОИТЕЛЬНАЯ ХИМИЯ</h1>
-            <p class="wow fadeInUp" data-wow-delay=".9s">Продукция мирового производителя строительной химии -<br>
+            <h1 class="wow fadeInUp" data-wow-delay="1.5s">СТРОИТЕЛЬНАЯ ХИМИЯ</h1>
+            <p class="wow fadeInUp" data-wow-delay="1.9s">Продукция мирового производителя строительной химии -<br>
             швейцарского концерна Sika</p>
             
         </div> 
@@ -442,6 +454,35 @@
 	</script>
     
     <script src="js/script.js"></script>
-    
+      
+   <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter39717215 = new Ya.Metrika({
+                            id:39717215,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true
+                        });
+                    } catch(e) { }
+                });
+
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/39717215" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+   
 </body>
 </html>

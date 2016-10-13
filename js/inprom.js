@@ -192,8 +192,19 @@ $(window).load(function() {
     
     
     //
-    $('.loader_inner').addClass('animated flipOutY');
+    if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) 
+    {
+        $('.loader_inner').fadeOut('500');
+    }
+    else
+    {
+        $('.loader_inner').addClass('animated flipOutY');
+    }
+    
+    
+    $('.loader').css('-webkit-animation', 'loader 1s linear');
     $('.loader').css('animation', 'loader 1s linear');
+    
     $("html, body").animate({ scrollTop: 0 }, 1200);
     
     setTimeout(

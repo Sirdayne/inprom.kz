@@ -16,6 +16,9 @@ $(document).ready(function() {
             $('.modal-back').fadeIn('fast');
             $('.thx').fadeIn('fast');
             
+            yaCounter39717215.reachGoal('send');
+            ga('send', 'event', 'form', 'success');
+            
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");
